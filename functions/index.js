@@ -140,14 +140,16 @@ const videos = [{
 
 
            "video-id" : "13" , 
-           "video-title" : "Dreams of Salvador Dali" , 
-           "video-description" : "Go inside and beyond Dali’s painting Archaeological Reminiscence of Millet’s Angelus and explore the world of the Surrealist master like never before in this mesmerizing 360° video. For an even more immersive experience, visit The Dali Museum in St. Petersburg, FL: the Virtual Reality experience is open daily from 11am-4pm (until 8pm on Thursdays) and is included with your admission to the Museum. Available worldwide for Oculus Rift & HTC Vive. For more, visit https://thedali.org/exhibit/dreams-vr/
-           ©Salvador Dali Museum, Inc., St. Petersburg, FL. Worldwide rights ©Salvador Dali, Fundacio Gala-Salvador Dali. Created for The Dali by Goodby Silverstein & Partners, San Francisco, CA." ,
+           "video-title" : "Space Dream 360 Demo" , 
+           "video-description" : "Space Dream VR is a Virtual Reality Music Visualizer.
+           The demo is compatible with the Oculus Rift, HTC Vive & Standard Desktop PC Modes, and supports keyboard, gamepad & motion controllers." ,
            "create-date": "05/01/2019" , 
            "modify-date": "05/02/2019" ,
            "long-description": "" ,
-           "author-id": "The Dali Museum" ,
-           "tag": "Travel" , "Arts" :
+           "author-id": "Space Dream" ,
+           "tag": "Travel" , "Arts" , "Science" :
+
+           
 
 
          
