@@ -19,10 +19,7 @@ response.send(data.val());
     
 };
 
-const videos = 
-require('./apis/videos');
-
 module.exports = {
-    getVideos :  functions.https.onRequest(videos.get),
-    searchVideos : functions.https.onRequest(videos.search)
+    getVideos :  getFn,
+    searchVideos : searchFn
 };
