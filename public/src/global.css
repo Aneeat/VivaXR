@@ -1,0 +1,146 @@
+:root {
+    --ion-color-primary: #512da8;
+    --ion-color-primary-rgb: 81,45,168;
+    --ion-color-primary-contrast: #ffffff;
+    --ion-color-primary-contrast-rgb: 255,255,255;
+    --ion-color-primary-shade: #f2f1f5;
+    --ion-color-primary-tint: #4a4a4a;
+  
+    --ion-color-secondary: #03a9f4;
+    --ion-color-secondary-rgb: 3,169,244;
+    --ion-color-secondary-contrast: #ffffff;
+    --ion-color-secondary-contrast-rgb: 255,255,255;
+    --ion-color-secondary-shade: #03a9f4;
+    --ion-color-secondary-tint: #dadada;
+  
+    --ion-color-tertiary: #000000;
+    --ion-color-tertiary-rgb: 0,0,0;
+    --ion-color-tertiary-contrast: #ffffff;
+    --ion-color-tertiary-contrast-rgb: 255,255,255;
+    --ion-color-tertiary-shade: #000000;
+    --ion-color-tertiary-tint: #1a1a1a;
+  }
+  
+  
+  
+  /* for thin heading text */
+  h2{
+    height: 32px;
+    font-family: Roboto-thin;
+    font-weight: 100;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+    text-align: center;
+  }
+  
+  /* for video title text */
+  h3 {
+    height: 12px;
+    font-family: Roboto;
+    font-weight: bold;
+  }
+  
+  
+  /* for uploaded by text */
+  h5 {
+    height: 10px;
+    font-family: Roboto;
+    color: #4A4A4A;
+    
+  }
+  
+  /* for footer text */
+  h6 {
+    height: 12px;
+    font-family: Roboto-regular;
+    color: #4A4A4A;
+    line-height: 16px;
+  }
+  
+  /* for description text */
+  p {
+    height: 12px;
+    font-family: Roboto-regular;
+    line-height: 20px;
+  }
+  
+  VivaLogo1 {
+    width: 49.5px;
+    height: 19.5px;
+  }
+    
+  .video-views {
+    height: 16px;
+    font-family: Roboto;
+    font-size: 12px;
+    color: #4A4A4A;
+    text-align: right;
+  }
+  
+  .btn-container{
+    margin: auto;
+    height:44px;
+    width:166.23px;
+  }
+  
+  .read-more-state {
+    display: none;
+  }
+  
+  .read-more-target {
+    opacity: 0;
+    max-height: 0;
+    font-size: 0;
+    transition: .25s ease;
+  }
+  
+  .read-more-state:checked ~ .read-more-wrap .read-more-target {
+    opacity: 1;
+    font-size: inherit;
+    max-height: 999em;
+  }
+  
+  .read-more-state ~ .read-more-trigger:before {
+    content: 'Read more';
+  }
+  
+  .read-more-state:checked ~ .read-more-trigger:before {
+    content: 'Read less';
+  }
+  
+  .read-more-trigger {
+    cursor: pointer;
+    padding: 0 .5em;
+    color: #03a9f4;
+    font-size: .9em;
+    line-height: 2;
+  }
+  
+  ion-input{
+    padding-top: 0px;
+    padding-bottom: 10px;
+    }
+  
+  ion-button {
+      background : #ffff;
+      border-radius : 0.2em;
+    }
+  
+  ion-chip{ 
+    border: solid 0.5px #512da8;
+    background-color: #ffffff;
+    }
+  
+  ion-button{
+    font-family : "Roboto" ; 
+    background : "#512da8";
+    border-radius: 10px; 
+  }
+  
+  footer {
+    background-color : #F2F1F5;
+  
+  }
