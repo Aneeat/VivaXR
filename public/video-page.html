@@ -13,183 +13,161 @@
    <link href="https://unpkg.com/@ionic/core@latest/css/ionic.bundle.css" rel="stylesheet">
   </head>  
 <body>
-        <ion-app>
+<ion-app>
+  <ion-header>
+    <ion-toolbar color="FFFFFF">
+          <ion-buttons slot="primary">
+             <ion-button color="primary">
+                <ion-icon slot="icon-only" name="notifications"></ion-icon>
+             </ion-button>
+             <ion-button color="primary">
+                <ion-icon slot="icon-only" name="contact"></ion-icon>
+             </ion-button>
+             <ion-button color="primary">
+                <ion-icon slot="icon-only" name="search"></ion-icon>
+             </ion-button>
+          </ion-buttons>
+          <ion-title><img src="https://firebasestorage.googleapis.com/v0/b/vivaxr-dbc49.appspot.com/o/TrueVIVAXRlogoP.png?alt=media&token=668a07f7-ff10-4672-be1f-72f8542a6a91"></ion-title>
+          <ion-buttons slot="primary">
+             <ion-button color="primary">
+                <ion-icon slot="icon-only" name="menu"></ion-icon>
+             </ion-button>
+          </ion-buttons>
+       </ion-toolbar>
+ </ion-header>
+<ion-content>
 
-
-                <ion-menu-controller>               
-                               <ion-content>
-                                 <ion-list>
-                                   <ion-item>Home</ion-item>
-                                   <ion-item>Promotions</ion-item>
-                                   <ion-item>Login</ion-item>
-                                   <ion-item>WatchVideos</ion-item>
-                                   <ion-item>FAQ</ion-item>
-                                 </ion-list>
-                               </ion-content>
-                  </ion-menu-controller>
-                               <ion-header>
-                                 <ion-toolbar color="FFFFFF">
-                             <ion-buttons slot="primary">
-                               <ion-button>
-                                 <ion-icon slot="icon-only" name="contact"></ion-icon>
-                               </ion-button>
-                               <ion-button>
-                                 <ion-icon slot="icon-only" name="search"></ion-icon>
-                               </ion-button>
-                             </ion-buttons>
-                             <ion-title><img src="https://firebasestorage.googleapis.com/v0/b/vivaxr-dbc49.appspot.com/o/TrueVIVAXRlogoP.png?alt=media&token=668a07f7-ff10-4672-be1f-72f8542a6a91"></ion-title>
-                             <ion-buttons slot="primary">
-                               <ion-button color="000000">
-                                 <ion-icon slot="icon-only" name="more"></ion-icon>
-                               </ion-button>
-                             </ion-buttons>
-                           </ion-toolbar>
-                               </ion-header>
-                               <iframe width="560" src="https://www.youtube.com/embed/ELQh3z4KrXk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                               <h3> Back to nature - Rainforests 360 </h3>
-                           
-                                 <div class="video-views">
-                           142 Views
-                                 </div>
-                                 
-                              <h5> Uploaded by: admin </h5> 
-                             <h5> 3rd July, 2019 </h5>
-                           
-                               <div>
-                             <input type="checkbox" class="read-more-state" id="expand"/>
-                               <p class="read-more-wrap"> This is a video description which is much longer hence Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                               <span class="read-more-target">
-                               incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
-                               </span> </p>
-                               <label for="expand" class="read-more-trigger"></label>
-                           
-                           </div>
-                           <br>
-                           <br>
-                           
-                           <div>      
-                           <h3> Tags </h3>   
-                           <div class="chip">
-                           <ion-chip>
-                           <ion-label> History </ion-label>
-                           </ion-chip>
-                           <ion-chip>
-                           <ion-label> Nature </ion-label>
-                           </ion-chip>
-                           <ion-chip>
-                           <ion-label> Travel </ion-label>
-                           </ion-chip>
-                           <ion-chip>
-                           <ion-label> Adventure </ion-label>
-                           </ion-chip>
-                           </div>
-                           </div>
-
-                           <h2> Similar Videos</h2>  
-
-                           <ion-row>
-                            <ion-col size="4">
-                              <ion-card>
-                              <a target="_blank" href="https://www.youtube.com/watch?v=ELQh3z4KrXk">Video</a>
-                              <img src= "https://firebasestorage.googleapis.com/v0/b/vivaxr-dbc49.appspot.com/o/mark-koch-526791-unsplash.jpg?alt=media&token=cdbe8167-b3cb-429c-b46a-baf0694fdf58"/>
-                        <ion-card-header>
-                          <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
-                          <ion-card-title>Card Title</ion-card-title>
-                        </ion-card-header>
-                          </ion-card>
-                          </ion-col>
-                             
-                            <ion-col size="4">
-                              <ion-card>
-                              <a target="_blank" href="https://www.youtube.com/watch?v=ELQh3z4KrXk">Video</a>
-                              <img src= "https://firebasestorage.googleapis.com/v0/b/vivaxr-dbc49.appspot.com/o/johnny-chen-77988-unsplash.jpg?alt=media&token=e69f9191-fd1c-4249-a1d5-ab7ddf244107"/>
-                        <ion-card-header>
-                          <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
-                          <ion-card-title>Card Title</ion-card-title>
-                        </ion-card-header>
-                          </ion-card>
-                          </ion-col>
-                               
-                            <ion-col size="4">
-                              <ion-card>
-                              <a target="_blank" href="https://www.youtube.com/watch?v=ELQh3z4KrXk">Video</a>
-                              <img src= "https://firebasestorage.googleapis.com/v0/b/vivaxr-dbc49.appspot.com/o/talia-cohen-30431-unsplash.jpg?alt=media&token=bfde701f-996d-43c6-a52e-29a23d5ed07d"/>
-                        <ion-card-header>
-                          <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
-                          <ion-card-title>Card Title</ion-card-title>
-                        </ion-card-header>
-                          </ion-card>
-                          </ion-col>
-                          </ion-row>
-                            
-                               <h2> Featured Videos</h2>
-                            <ion-row>
-                            <ion-col size="4">
-                              <ion-card>
-                              <a target="_blank" href="https://www.youtube.com/watch?v=ELQh3z4KrXk">Video</a>
-                              <img src= "https://firebasestorage.googleapis.com/v0/b/vivaxr-dbc49.appspot.com/o/johnny-chen-77988-unsplash.jpg?alt=media&token=e69f9191-fd1c-4249-a1d5-ab7ddf244107"/>
-                        <ion-card-header>
-                          <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
-                          <ion-card-title>Card Title</ion-card-title>
-                        </ion-card-header>
-                          </ion-card>
-                          </ion-col>
-                             
-                            <ion-col size="4">
-                              <ion-card>
-                              <a target="_blank" href="https://www.youtube.com/watch?v=ELQh3z4KrXk">Video</a>
-                              <img src= "https://firebasestorage.googleapis.com/v0/b/vivaxr-dbc49.appspot.com/o/gabriel-gurrola-125336-unsplash.jpg?alt=media&token=90629817-cc85-4baf-a4ec-417ade9403e7"/>
-                        <ion-card-header>
-                          <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
-                          <ion-card-title>Card Title</ion-card-title>
-                        </ion-card-header>
-                          </ion-card>
-                          </ion-col>
-                               
-                        
-                            
-                            <ion-col size="4">
-                              <ion-card>
-                              <a target="_blank" href="https://www.youtube.com/watch?v=ELQh3z4KrXk">Video</a>
-                              <img src= "https://firebasestorage.googleapis.com/v0/b/vivaxr-dbc49.appspot.com/o/daniil-silantev-796811-unsplash.jpg?alt=media&token=c0473248-ba47-4743-8c76-a60981f0b7e2"/>
-                        <ion-card-header>
-                          <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
-                          <ion-card-title>Card Title</ion-card-title>
-                        </ion-card-header>
-                          </ion-card>
-                          </ion-col>
-                          </ion-row>
-                      
-                        
-                      <footer>
-                            <ion-row>
-                            <ion-col col-12 offset-4 text-left>
-                        <h6 class="footertext"> About us</h6> 
-                         <h6 class="footertext"> How it works</h6> 
-                          <h6 class="footertext"> Explore</h6>
-                          <h6 class="footertext"> Promotions</h6> 
-                           </ion-col>
-                        
-                        
-                      
-                          <ion-col col-12 offset-8 text-left>  
-                        <h6 class="footertext"> Upload a video</h6> 
-                         <h6 class="footertext"> Support</h6> 
-                          <h6 class="footertext"> FAQ's</h6> 
-                              </ion-col>
-                            
-                            <ion-col col-6 offset-3 text-center>
-                              <h6 class="footertext"> Connect with us</h6> 
-                              <ion-icon name="logo-facebook"></ion-icon>
-                              <ion-icon name="logo-twitter"></ion-icon>
-                              <ion-icon name="logo-instagram"></ion-icon>
-                              <ion-icon name="logo-linkedin"></ion-icon>
-                              </ion-col>  
-                        </ion-row>
-                        <ion-col col-12 offset-8 text-center>
-                        <a class="footertext"> Copyright | Disclaimer | Terms & Conditions | Privacy Policy </a>
-                        </ion-col>
-                            </footer>                     
+ <iframe  class="iframe-container" src="https://www.youtube.com/embed/ELQh3z4KrXk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="ion-margin-start">
+  <ion-grid> 
+<ion-row class="ion-align-items-center">
+  <ion-column size="2">
+  <h3> Back to nature - Rainforests 360 </h3>
+  </ion-column>
+  
+  <ion-column size="2">
+ <div class="video-views"> 142 Views </div>
+  </ion-column>
+    </ion-row>
+  </ion-grid>
+  
+ <h6> Uploaded by: Sasha Snow | 3rd July, 2019 </h6>
+ <div>
+    <input type="checkbox" class="read-more-state" id="expand"/>
+    <p class="read-more-wrap"> This is a video description which is much longer hence Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+       <span class="read-more-target">
+       incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+       </span> 
+    </p>
+    <label for="expand" class="read-more-trigger"></label>
+ </div>
+ <br>
+ <br>
+ <div>
+    <h3> Tags </h3>
+    <div class="chip">
+       <ion-chip>
+          <ion-label> History </ion-label>
+       </ion-chip>
+       <ion-chip>
+          <ion-label> Nature </ion-label>
+       </ion-chip>
+       <ion-chip>
+          <ion-label> Travel </ion-label>
+       </ion-chip>
+       <ion-chip>
+          <ion-label> Adventure </ion-label>
+       </ion-chip>
+    </div>
+ </div>
+ <h2> Similar Videos</h2>
+ <ion-grid>
+  <ion-row>
+    <ion-col size="4">
+       <ion-card>
+          <img src= "https://firebasestorage.googleapis.com/v0/b/vivaxr-dbc49.appspot.com/o/mark-koch-526791-unsplash.jpg?alt=media&token=cdbe8167-b3cb-429c-b46a-baf0694fdf58"/>
+          <ion-card-header>
+             <ion-card-title>Through the mountains </ion-card-title>
+          </ion-card-header>
+       </ion-card>
+    </ion-col>
+    <ion-col size="4">
+       <ion-card>
+          <img src= "https://firebasestorage.googleapis.com/v0/b/vivaxr-dbc49.appspot.com/o/johnny-chen-77988-unsplash.jpg?alt=media&token=e69f9191-fd1c-4249-a1d5-ab7ddf244107"/>
+          <ion-card-header>
+             <ion-card-title> Underwater VR </ion-card-title>
+          </ion-card-header>
+       </ion-card>
+    </ion-col>
+    <ion-col size="4">
+       <ion-card>
+          <img src= "https://firebasestorage.googleapis.com/v0/b/vivaxr-dbc49.appspot.com/o/talia-cohen-30431-unsplash.jpg?alt=media&token=bfde701f-996d-43c6-a52e-29a23d5ed07d"/>
+          <ion-card-header>
+             
+             <ion-card-title>Pacific Whales</ion-card-title>
+          </ion-card-header>
+       </ion-card>
+    </ion-col>
+ </ion-row>
+</ion-grid>
+ <h2> Featured Videos</h2>
+ <ion-grid>
+  <ion-row>
+    <ion-col size="4">
+       <ion-card>
+          <img src= "https://firebasestorage.googleapis.com/v0/b/vivaxr-dbc49.appspot.com/o/johnny-chen-77988-unsplash.jpg?alt=media&token=e69f9191-fd1c-4249-a1d5-ab7ddf244107"/>
+          <ion-card-header>
+             <ion-card-title> Underwater VR </ion-card-title>
+          </ion-card-header>
+       </ion-card>
+    </ion-col>
+    <ion-col size="4">
+       <ion-card>
+          
+          <img src= "https://firebasestorage.googleapis.com/v0/b/vivaxr-dbc49.appspot.com/o/gabriel-gurrola-125336-unsplash.jpg?alt=media&token=90629817-cc85-4baf-a4ec-417ade9403e7"/>
+          <ion-card-header>
+             <ion-card-title>Live in concert</ion-card-title>
+          </ion-card-header>
+       </ion-card>
+    </ion-col>
+    <ion-col size="4">
+       <ion-card>
+          <img src= "https://firebasestorage.googleapis.com/v0/b/vivaxr-dbc49.appspot.com/o/daniil-silantev-796811-unsplash.jpg?alt=media&token=c0473248-ba47-4743-8c76-a60981f0b7e2"/>
+          <ion-card-header>
+             <ion-card-title>360 Adventures </ion-card-title>
+          </ion-card-header>
+       </ion-card>
+    </ion-col>
+ </ion-row>
+</ion-grid>
+  </div>
+ <footer>
+    <ion-row>
+       <ion-col size="4">
+          <h6 class="footertext"> About us</h6>
+          <h6 class="footertext"> How it works</h6>
+          <h6 class="footertext"> Explore</h6>
+          <h6 class="footertext"> Promotions</h6>
+       </ion-col>
+       <ion-col size="4">
+          <h6 class="footertext"> Upload a video</h6>
+          <h6 class="footertext"> Support</h6>
+          <h6 class="footertext"> FAQ's</h6>
+       </ion-col>
+       <ion-col size="4">
+          <h6 class="footertext"> Connect with us</h6>
+          <ion-icon name="logo-facebook"></ion-icon>
+          <ion-icon name="logo-twitter"></ion-icon>
+          <ion-icon name="logo-instagram"></ion-icon>
+          <ion-icon name="logo-linkedin"></ion-icon>
+       </ion-col>
+    </ion-row>
+    </footer>
+    <ion-col class="disclaimer-text" size="12">
+ Copyright | Disclaimer | Terms & Conditions | Privacy Policy 
+    </ion-col>
+</ion-content>
+                  
 </ion-app>>
 </body>
 <script src="./src/video-page.js"></script>
