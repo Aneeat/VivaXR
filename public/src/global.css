@@ -65,7 +65,7 @@ h5 {
 
 /* for footer text */
 h6 {
-  height: 12px;
+  font-size: 12px;
   font-family: Roboto-regular;
   color: #4A4A4A;
   line-height: 16px;
