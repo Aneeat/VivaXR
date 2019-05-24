@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Viva XR!</title>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <script src="https://unpkg.com/ionicons@latest/dist/ionicons.js"></script>
+      <script src="https://unpkg.com/@ionic/core@latest/dist/ionic.js"></script>
+      <link href="https://unpkg.com/@ionic/core@latest/css/ionic.bundle.css" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="src/global.css">
+      <script src="./src/home-page.js"></script>
+      <script src="./src/videos-page.js"></script>
+      <script src="./src/explore-page.js"></script>
+
+   </head>
+   <body>
+<ion-app>
+        <ion-header>
+                <ion-toolbar color="FFFFFF">
+                   <ion-buttons slot="primary">
+                      <ion-button color="primary">
+                         <ion-icon slot="icon-only" name="notifications"></ion-icon>
+                      </ion-button>
+                      <ion-button color="primary">
+                         <ion-icon slot="icon-only" name="contact"></ion-icon>
+                      </ion-button>
+                      <ion-button color="primary">
+                         <ion-icon slot="icon-only" name="search"></ion-icon>
+                      </ion-button>
+                   </ion-buttons>
+                   <ion-title><img src="https://firebasestorage.googleapis.com/v0/b/vivaxr-dbc49.appspot.com/o/TrueVIVAXRlogoP.png?alt=media&token=668a07f7-ff10-4672-be1f-72f8542a6a91"></ion-title>
+                   <ion-buttons slot="primary">
+                      <ion-button color="primary">
+                         <ion-icon slot="icon-only" name="menu"></ion-icon>
+                      </ion-button>
+                   </ion-buttons>
+                </ion-toolbar>
+             </ion-header>
+
+        <ion-router>
+                <ion-route url="/" component="home-page"></ion-route>
+                <ion-route url="/home" component="home-page"></ion-route>
+                <ion-route url="/videos-page" component="videos-page"></ion-route>
+                <ion-route url="/explore" component="explore-page"></ion-route>
+                <ion-route url="/video/details/:id" component="video-details-page"></ion-route>
+                <ion-route url="/explore/categories/:id" component="explore-categories-page"></ion-route>
+        </ion-router>
+        <ion-nav></ion-nav>
+</ion-app>
+
+
+</body>
+
+
+</html>
