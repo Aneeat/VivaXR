@@ -13,7 +13,7 @@ class HomePage extends HTMLElement {
    <div>
    </div>
    <div>
-      <img id="hero" src="https://firebasestorage.googleapis.com/v0/b/vivaxr-dbc49.appspot.com/o/sm-viv-hero.gif?alt=media&token=a1964ee5-e162-44d0-8af2-637c662519ff">
+      <img id="hero" src="/assets/sm-viv-hero.gif">
    </div>
    <div class="hero-text">
       <h1>DISCOVER. CREATE. IMMERSE.</h1>
