@@ -1,185 +1,194 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Hello!</title>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- import the webpage's stylesheet -->
-    <link rel="stylesheet" href="./style.css">
-    <!-- import the webpage's javascript file -->
-    <script src="https://unpkg.com/ionicons@latest/dist/ionicons.js"></script>
-   <script src="https://unpkg.com/@ionic/core@latest/dist/ionic.js"></script>
-   <link href="https://unpkg.com/@ionic/core@latest/css/ionic.bundle.css" rel="stylesheet">
-  </head>  
-  
-<body>
-<ion-app>
-  
-  
-    <ion-header>
-  
-      <ion-toolbar color="ffffff">
-        
-        <!--Icon on left of logo-->
-  <ion-buttons slot="start">
-    
-    
-    <ion-button>
-      
-      <ion-icon name="menu" color="primary"></ion-icon>
-     
-    </ion-button>
-  
-  </ion-buttons>
-        
-  <!--Icon on right of logo-->
-        
-  <ion-title><img src="/public/assets/VivaLogo1.png"></ion-title>
-        
-     <!--Icon on left of logo-->    
-        
-  <ion-buttons slot="end">
-    
-    <ion-button color="primary">
-      <ion-icon slot="icon-only" name="contact"></ion-icon>
-    </ion-button>
-  </ion-buttons>
-</ion-toolbar>
-    </ion-header>
-    <ion-content>
-      <div>
-        <img id="hero" src="https://firebasestorage.googleapis.com/v0/b/vivaxr-dbc49.appspot.com/o/sm-viv-hero.gif?alt=media&token=a1964ee5-e162-44d0-8af2-637c662519ff">
-        </div>
-        <div class="hero-text">          
-        <h1>DISCOVER. CREATE. IMMERSE.</h1>
-        <p>Viva XR helps artists and fans</p>
-        <p>intimately connect using Mixed Reality Technology</p>
-     </div>
-                  <ion-col>
-                     <h2 align="center">How It Works</h2>
-                     <ion-label>
-                     </ion-label>
+   <head>
+      <title>Hello!</title>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- import the webpage's stylesheet -->
+      <link rel="stylesheet" href="./src/global.css">
+      <!-- import the webpage's javascript file -->
+      <script src="https://unpkg.com/ionicons@latest/dist/ionicons.js"></script>
+      <script src="https://unpkg.com/@ionic/core@latest/dist/ionic.js"></script>
+      <link href="https://unpkg.com/@ionic/core@latest/css/ionic.bundle.css" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="style.css">
+   </head>
+   <body>
+      <ion-app>
+         <ion-header>
+            <ion-toolbar color="FFFFFF">
+               <ion-buttons slot="primary">
+                  <ion-button color="primary">
+                     <ion-icon slot="icon-only" name="notifications"></ion-icon>
+                  </ion-button>
+                  <ion-button color="primary">
+                     <ion-icon slot="icon-only" name="contact"></ion-icon>
+                  </ion-button>
+                  <ion-button color="primary">
+                     <ion-icon slot="icon-only" name="search"></ion-icon>
+                  </ion-button>
+               </ion-buttons>
+               <ion-title><img src="https://firebasestorage.googleapis.com/v0/b/vivaxr-dbc49.appspot.com/o/TrueVIVAXRlogoP.png?alt=media&token=668a07f7-ff10-4672-be1f-72f8542a6a91"></ion-title>
+               <ion-buttons slot="primary">
+                  <ion-button color="primary">
+                     <ion-icon slot="icon-only" name="menu"></ion-icon>
+                  </ion-button>
+               </ion-buttons>
+            </ion-toolbar>
+         </ion-header>
+         <ion-content>
+            <img src="https://firebasestorage.googleapis.com/v0/b/vivaxr-dbc49.appspot.com/o/MTJP_Redwood_20_640x360_617153603998.jpg?alt=media&token=df1ef7aa-a03d-49ba-8441-88a4ca8071d6"/>
+            <div>
+            <ion-grid>
+               <ion-row>
+                  <ion-col size="4" align="center">
+                     <div class="anchor">
+                        <a name="target"> </a>
+                        <h3 class="target-label" align="center">CREATE</h3>
+                     </div>
+                     <img src = "https://firebasestorage.googleapis.com/v0/b/vivaxr-dbc49.appspot.com/o/standing-4.png?alt=media&token=5cd6e907-85a4-441a-a014-36de0672852c" /> 
+                     <p>Upload your own 360 or VR Videos
+                     </p>
                   </ion-col>
-
-      <ion-row>
-                     <ion-col size="3">
-                       <img id="icons"  src = "https://firebasestorage.googleapis.com/v0/b/vivaxr-dbc49.appspot.com/o/AugmentedReality_38.svg?alt=media&token=6d1d8e7e-79dd-432e-9499-7c0f866c9ea7" />
-                       </ion-col>
-                     <ion-col size="9">
-                       <h3> Create </h3>
-                         <p>We are curating the best mixed reality content, upload your 360 and VR videos and join the community</p>
-                          <a> Upload a Video </a>
-                     </ion-col>
-                      <ion-col size="3"> 
-                       <img id="icons"  src = "https://firebasestorage.googleapis.com/v0/b/vivaxr-dbc49.appspot.com/o/AugmentedReality_37.svg?alt=media&token=42145106-3949-425e-84f1-fdf9cdc1138e" />
-                       </ion-col>
-                     <ion-col size="9">
-                       <h3> Explore </h3>
-                         <p>Be a part of events, concerts, adventure and action from the comfort of your home, watch VR content</p>
-                          <a> Watch in VR </a>
-                     </ion-col>
-        
-    
-                      <ion-col size="3">
-                       <img id="icons"  src = "https://firebasestorage.googleapis.com/v0/b/vivaxr-dbc49.appspot.com/o/AugmentedReality_47.svg?alt=media&token=70cec4e4-6d73-480f-a15c-dcf875012807" />
-                       </ion-col>
-                     <ion-col size="9">
-                       <h3> Immerse </h3>
-                       <p>There’s a virtual world waiting to be explored, immerse yourself in a new adventure everyday</p>
-                     <a>Create an Account</a>
-                      </ion-col>
-        
-        
-        
-        
-        
-                  </ion-row>
-                
-      
-      <div>
-                  <ion-input>
-                  </ion-input>
+                  <ion-col size="4" align="center">
+                     <div class="anchor">
+                        <a name="target"> </a>
+                        <h3 class="target-label" align="center">EXPLORE</h3>
+                     </div>
+                     <img src = "https://firebasestorage.googleapis.com/v0/b/vivaxr-dbc49.appspot.com/o/sitting-1.png?alt=media&token=708b4a6a-ac6e-48c6-ad80-656aee6b962c" /> 
+                     <p>Discover content across the globe</p>
+                  </ion-col>
+                  <ion-col size="4" align="center">
+                     <div class="anchor">
+                        <a name="target"> </a>
+                        <h3 class="target-label" align="center">IMMERSE</h3>
+                     </div>
+                     <img class="large-video-thumbnail" src = "https://firebasestorage.googleapis.com/v0/b/vivaxr-dbc49.appspot.com/o/standing-13.png?alt=media&token=9496eedf-a441-4d9f-ba7e-c57e7270f664" /> 
+                     <p>Curated VR experiences for every mood</p>
+                  </ion-col>
+               </ion-row>
+               <ion-row>
+                  <ion-col size="4">
+                  </ion-col>
+                  <ion-col size="4" align="center" >
+                     <div>
+                     </div>
+                     <ion-button size="medium">CREATE YOUR FREE ACCOUNT</ion-button>
+                  </ion-col>
+                  <ion-col size="4">
+                  </ion-col>
+               </ion-row>
+            </ion-grid>
+            <div>
+            </div>
+            <ion-card>
+               <ion-row>
+                  <ion-col size="4">
+                     <img src = "https://firebasestorage.googleapis.com/v0/b/vivaxr-dbc49.appspot.com/o/download.jpg?alt=media&token=355c640d-d070-40b7-8483-951ac95ec6ab" />
+                  </ion-col>
+                  <ion-col size="8">
+                     <h3>  Sign up for a chance to win an</h3>
+                     <h2>Oculus Go Headset</h2>
+                  </ion-col>
+               </ion-row>
+            </ion-card>
+            <div>
+               <ion-col>
+                  <h2 align="center">Featured Videos</h2>
+                  <ion-label>
+                  </ion-label>
+               </ion-col>
+            </div>
+            <div>
+            </div>
+            <ion-card>
+               <iframe  class="iframe-container" src="https://www.youtube.com/embed/wrtFLhwu168" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+               <div class="ion-margin-start">
+               <ion-grid>
+                  <ion-row class="ion-align-items-center">
+                     <ion-column size="2">
+                        <h3> Back to nature - Rainforests 360 </h3>
+                     </ion-column>
+            </ion-card>
+            <ion-column size="2">
+            <div class="video-views"> 142 Views </div>
+            </ion-column>
+            </ion-row>
+            </ion-grid>
+            <h5> Uploaded by: admin </h5>
+            <h5> 3rd July, 2019 </h5>
+            <div>
+            </div>
+            <div>
+            <ion-grid>
+               <ion-row>
+                  <ion-col size="4">
+                     <ion-card>
+                        <img src= "https://firebasestorage.googleapis.com/v0/b/vivaxr-dbc49.appspot.com/o/sagradafamila.jpeg?alt=media&token=203c5b67-1457-4028-9bfc-e5510ba1dd0a"/>
+                        <ion-card-header>
+                           <ion-card-title>La Sagrada Familia </ion-card-title>
+                        </ion-card-header>
+                     </ion-card>
+                  </ion-col>
+                  <ion-col size="4">
+                     <ion-card>
+                        <img src= "https://firebasestorage.googleapis.com/v0/b/vivaxr-dbc49.appspot.com/o/johnny-chen-77988-unsplash.jpg?alt=media&token=e69f9191-fd1c-4249-a1d5-ab7ddf244107"/>
+                        <ion-card-header>
+                           <ion-card-title> Underwater VR </ion-card-title>
+                        </ion-card-header>
+                     </ion-card>
+                  </ion-col>
+                  <ion-col size="4">
+                     <ion-card>
+                        <img src= "https://firebasestorage.googleapis.com/v0/b/vivaxr-dbc49.appspot.com/o/sn-monarchsH_1.jpg?alt=media&token=d8d90ceb-cb64-4f40-a9f6-5a4af547f115"/>
+                        <ion-card-header>
+                           <ion-card-title>Monarch Butterflies</ion-card-title>
+                        </ion-card-header>
+                     </ion-card>
+                  </ion-col>
+               </ion-row>
+            </ion-grid>
+            <div>
+               <div>
                   <div>
-                    
+                     <div>
+                        <ion-input>
+                        </ion-input>
+                     </div>
                   </div>
-        </div>
- <div>
-                   
-                 </div>
-
-              <ion-card>
+               </div>
+            </div>
+            <div>
+               <footer align="bottom">
                   <ion-row>
                      <ion-col size="4">
-                       <img src = "https://firebasestorage.googleapis.com/v0/b/vivaxr-dbc49.appspot.com/o/download.jpg?alt=media&token=355c640d-d070-40b7-8483-951ac95ec6ab" />
-                       </ion-col>
-                     <ion-col size="8">
-                       <h3>  Sign up for a chance to win an</h3>
-                         <h2>Oculus Go Headset</h2>
-      
+                        <h6 class="footertext"> About us</h6>
+                        <h6 class="footertext"> How it works</h6>
+                        <h6 class="footertext"> Explore</h6>
+                        <h6 class="footertext"> Promotions</h6>
+                     </ion-col>
+                     <ion-col size="4">
+                        <h6 class="footertext"> Upload a video</h6>
+                        <h6 class="footertext"> Support</h6>
+                        <h6 class="footertext"> FAQ's</h6>
+                     </ion-col>
+                     <ion-col size="4">
+                        <h6 class="footertext"> Connect with us</h6>
+                        <ion-icon name="logo-facebook"></ion-icon>
+                        <ion-icon name="logo-twitter"></ion-icon>
+                        <ion-icon name="logo-instagram"></ion-icon>
+                        <ion-icon name="logo-linkedin"></ion-icon>
                      </ion-col>
                   </ion-row>
-               </ion-card>
-               <div>
-                  <ion-col>
-                       <h2> Featured Videos</h2>
-         <ion-grid>
-          <ion-row>
-            <ion-col>
-        <ion-card>
-                  <img src= "https://cdn.glitch.com/f4feab55-7fa5-4924-972f-c40e285456cf%2Fbigwithtext-flyingthrough.png?1558912182529"/>
-              </ion-card>
-           
-            </ion-col>
-           </ion-row>
-           
-           <ion-row>
-            <ion-col>
-           
-                  <ion-card>
-                  <img src= "https://cdn.glitch.com/f4feab55-7fa5-4924-972f-c40e285456cf%2Fwalkin-mountains-small.png?1558912306840"/>
-              </ion-card>
-      
-            </ion-col>
-            <ion-col>
-              <ion-card>
-                  <img src= "https://cdn.glitch.com/f4feab55-7fa5-4924-972f-c40e285456cf%2Fsmall2-with%20text.png?1558911702077"/>
-              </ion-card>
-            </ion-col>
-         </ion-row>
-        </ion-grid>
-          
-   <!--Footer start here-->
-          
-         <div class="footer">
-           <ion-grid>
-            <ion-row>
-               <ion-col size="4">
-                  <h6 class="footertext"> About us</h6>
-                  <h6 class="footertext"> Explore</h6>
-                  <h6 class="footertext"> Promotions</h6>
-               </ion-col>
-               <ion-col size="4">
-                  <h6 class="footertext"> Upload</h6>
-                  <h6 class="footertext"> Support</h6>
-                  <h6 class="footertext"> FAQ's</h6>
-               </ion-col>
-               <ion-col size="4">
-                  <h6 class="footertext"> Connect</h6>
-                  <ion-icon name="logo-facebook"></ion-icon>
-                  <ion-icon name="logo-twitter"></ion-icon>
-                 <br>
-                  <ion-icon name="logo-instagram"></ion-icon>
-                  <ion-icon name="logo-linkedin"></ion-icon>
-               </ion-col>
-            </ion-row>
-           </ion-grid>
+                  <ion-col size="12">
+                     <a class="footertext"> Copyright | Disclaimer | Terms & Conditions | Privacy Policy </a>
+                  </ion-col>
+               </footer>
             </div>
-            <ion-col class="disclaimer-text">
-         Copyright | Disclaimer | Terms & Conditions | Privacy Policy 
-            </ion-col>
-          <div></div>
-        </ion-content>
+            <div>
+            </div>
+         </ion-content>
       </ion-app>
    </body>
+   <script src="./src/home.js"></script>
 </html>
