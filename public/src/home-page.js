@@ -13,12 +13,13 @@ class HomePage extends HTMLElement {
    <div>
    </div>
    <div>
-      <img id="hero" src="https://firebasestorage.googleapis.com/v0/b/vivaxr-dbc49.appspot.com/o/sm-viv-hero.gif?alt=media&token=a1964ee5-e162-44d0-8af2-637c662519ff">
+      <img id="hero" src="/assets/sm-viv-hero.gif">
    </div>
    <div class="hero-text">
       <h1>DISCOVER. CREATE. IMMERSE.</h1>
       <p>Viva XR helps artists and fans</p>
       <p>intimately connect using Mixed Reality Technology</p>
+      <ion-button color="secondary">UPLOAD</ion-button> <ion-button>EXPLORE</ion-button>
    </div>
    <ion-col>
       <h2 align="center">How It Works</h2>
@@ -27,7 +28,7 @@ class HomePage extends HTMLElement {
    </ion-col>
    <ion-row>
       <ion-col size="3">
-         <img id="icons"  src = "https://firebasestorage.googleapis.com/v0/b/vivaxr-dbc49.appspot.com/o/AugmentedReality_38.svg?alt=media&token=6d1d8e7e-79dd-432e-9499-7c0f866c9ea7" />
+         <img id="icons"  src = "/assets/PhoneIcon.png" />
       </ion-col>
       <ion-col size="9">
          <h3> Create </h3>
@@ -35,7 +36,7 @@ class HomePage extends HTMLElement {
          <a> Upload a Video </a>
       </ion-col>
       <ion-col size="3"> 
-         <img id="icons"  src = "https://firebasestorage.googleapis.com/v0/b/vivaxr-dbc49.appspot.com/o/AugmentedReality_37.svg?alt=media&token=42145106-3949-425e-84f1-fdf9cdc1138e" />
+         <img id="icons"  src = "/assets/imageicon.png" />
       </ion-col>
       <ion-col size="9">
          <h3> Explore </h3>
@@ -43,7 +44,7 @@ class HomePage extends HTMLElement {
          <a> Watch in VR </a>
       </ion-col>
       <ion-col size="3">
-         <img id="icons"  src = "https://firebasestorage.googleapis.com/v0/b/vivaxr-dbc49.appspot.com/o/AugmentedReality_47.svg?alt=media&token=70cec4e4-6d73-480f-a15c-dcf875012807" />
+         <img id="icons"  src = "/assets/VRIcon.png" />
       </ion-col>
       <ion-col size="9">
          <h3> Immerse </h3>
@@ -62,7 +63,7 @@ class HomePage extends HTMLElement {
    <ion-card>
       <ion-row>
          <ion-col size="4">
-            <img src = "https://firebasestorage.googleapis.com/v0/b/vivaxr-dbc49.appspot.com/o/download.jpg?alt=media&token=355c640d-d070-40b7-8483-951ac95ec6ab" />
+            <img class="icons" src = "/assets/Oculus.jpg" />
          </ion-col>
          <ion-col size="8">
             <h3>  Sign up for a chance to win an</h3>
