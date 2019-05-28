@@ -41,7 +41,7 @@ ion-icon {
 }
 
 .ion-margin-start {
-  margin-start: 16px;
+--margin-start: 16px;
 }
 
 /* for thin heading text */
@@ -151,14 +151,13 @@ color: #4A4A4A;
 
 .share {
   text-align: left;
-margin-end: 16px
+--margin-end: 16px
   
   
 }
 
 ion-col {
-  text-align: center;
-  text-wrap: wrap;
+text-align: center;
 }
 
 ion-row{
