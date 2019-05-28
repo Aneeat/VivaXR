@@ -63,7 +63,7 @@ class HomePage extends HTMLElement {
    <ion-card>
       <ion-row>
          <ion-col size="4">
-            <img src = "/assets/Oculus.jpg" />
+            <img class="icons" src = "/assets/Oculus.jpg" />
          </ion-col>
          <ion-col size="8">
             <h3>  Sign up for a chance to win an</h3>
