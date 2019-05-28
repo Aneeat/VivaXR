@@ -16,8 +16,27 @@
    </head>
    <body>
 <ion-app>
-        <ion-header>
-             </ion-header>
+    <ion-header>
+        <ion-toolbar>
+              <ion-buttons slot="primary">
+                 <ion-button color="primary">
+                    <ion-icon slot="icon-only" name="notifications"></ion-icon>
+                 </ion-button>
+                 <ion-button color="primary">
+                    <ion-icon slot="icon-only" name="contact"></ion-icon>
+                 </ion-button>
+                 <ion-button color="primary">
+                    <ion-icon slot="icon-only" name="search"></ion-icon>
+                 </ion-button>
+              </ion-buttons>
+              <ion-title><img src="https://firebasestorage.googleapis.com/v0/b/vivaxr-dbc49.appspot.com/o/TrueVIVAXRlogoP.png?alt=media&token=668a07f7-ff10-4672-be1f-72f8542a6a91"></ion-title>
+              <ion-buttons slot="primary">
+                 <ion-button color="primary">
+                    <ion-icon slot="icon-only" name="menu"></ion-icon>
+                 </ion-button>
+              </ion-buttons>
+           </ion-toolbar>
+     </ion-header>
 
         <ion-router>
                 <ion-route url="/" component="home-page"></ion-route>
