@@ -117,4 +117,4 @@ class videoDetails extends HTMLElement {
     }
 }
 
-customElements.define('video-page', videoDetails);
+customElements.define('video-details-page', videoDetails);
