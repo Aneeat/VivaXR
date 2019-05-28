@@ -17,22 +17,19 @@
    <body>
 <ion-app>
         <ion-header>
-                <ion-toolbar color="FFFFFF">
-                   <ion-buttons slot="primary">
-                      <ion-button color="primary">
-                         <ion-icon slot="icon-only" name="notifications"></ion-icon>
-                      </ion-button>
-                      <ion-button color="primary">
-                         <ion-icon slot="icon-only" name="contact"></ion-icon>
-                      </ion-button>
-                      <ion-button color="primary">
-                         <ion-icon slot="icon-only" name="search"></ion-icon>
+                <ion-toolbar color="ffffff">
+                   <!--Icon on left of logo-->
+                   <ion-buttons slot="start">
+                      <ion-button>
+                         <ion-icon name="menu" color="primary"></ion-icon>
                       </ion-button>
                    </ion-buttons>
-                   <ion-title><img src="https://firebasestorage.googleapis.com/v0/b/vivaxr-dbc49.appspot.com/o/TrueVIVAXRlogoP.png?alt=media&token=668a07f7-ff10-4672-be1f-72f8542a6a91"></ion-title>
-                   <ion-buttons slot="primary">
+                   <!--Icon on right of logo-->
+                   <ion-title><img src="/public/assets/VivaLogo1.png"></ion-title>
+                   <!--Icon on left of logo-->    
+                   <ion-buttons slot="end">
                       <ion-button color="primary">
-                         <ion-icon slot="icon-only" name="menu"></ion-icon>
+                         <ion-icon slot="icon-only" name="contact"></ion-icon>
                       </ion-button>
                    </ion-buttons>
                 </ion-toolbar>
@@ -50,8 +47,34 @@
         
 
         <ion-footer>
-
-            
+                <div class="footer">
+                        <ion-grid>
+                           <ion-row>
+                              <ion-col size="4">
+                                 <h6 class="footertext"> About us</h6>
+                                 <h6 class="footertext"> Explore</h6>
+                                 <h6 class="footertext"> Promotions</h6>
+                              </ion-col>
+                              <ion-col size="4">
+                                 <h6 class="footertext"> Upload</h6>
+                                 <h6 class="footertext"> Support</h6>
+                                 <h6 class="footertext"> FAQ's</h6>
+                              </ion-col>
+                              <ion-col size="4">
+                                 <h6 class="footertext"> Connect</h6>
+                                 <ion-icon name="logo-facebook"></ion-icon>
+                                 <ion-icon name="logo-twitter"></ion-icon>
+                                 <br>
+                                 <ion-icon name="logo-instagram"></ion-icon>
+                                 <ion-icon name="logo-linkedin"></ion-icon>
+                              </ion-col>
+                           </ion-row>
+                        </ion-grid>
+                     </div>
+                     <ion-col class="disclaimer-text">
+                        Copyright | Disclaimer | Terms & Conditions | Privacy Policy 
+                     </ion-col>
+                     </div>  
         </ion-footer>
 </ion-app>
 
