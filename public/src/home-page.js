@@ -26,7 +26,7 @@ class HomePage extends HTMLElement {
    <div>
    </div>
    <div>
-      <img id="hero" src="/assets/sm-viv-hero.gif">
+      <img id="hero" src="public/assets/sm-viv-hero.gif">
    </div>
    <div class="hero-text">
       <h1>DISCOVER. CREATE. IMMERSE.</h1>
