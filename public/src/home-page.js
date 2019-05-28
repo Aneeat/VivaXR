@@ -19,6 +19,7 @@ class HomePage extends HTMLElement {
       <h1>DISCOVER. CREATE. IMMERSE.</h1>
       <p>Viva XR helps artists and fans</p>
       <p>intimately connect using Mixed Reality Technology</p>
+      <ion-button color="secondary">UPLOAD</ion-button> <ion-button>EXPLORE</ion-button>
    </div>
    <ion-col>
       <h2 align="center">How It Works</h2>
