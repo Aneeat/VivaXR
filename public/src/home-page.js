@@ -6,22 +6,12 @@ class HomePage extends HTMLElement {
     }
     connectedCallback() {
         
-        this.innerHTML =  `<ion-content>
-        <ion-input>
+        this.innerHTML =  `
+        
+        <ion-app>
+        <body>
+        <ion-content>
         <div>
-        </div>
-        <div>
-        </div>
-        <div>
-        </div>
-        </ion-input>
-        <div>
-        </div>
-        <div>
-        </div>
-        <div>
-        </div>
-   <div>
    </div>
    <div>
    </div>
