@@ -78,19 +78,19 @@ class HomePage extends HTMLElement {
       <ion-row>
          <ion-col>
             <ion-card>
-               <img src= "https://cdn.glitch.com/f4feab55-7fa5-4924-972f-c40e285456cf%2Fbigwithtext-flyingthrough.png?1558912182529"/>
+               <img src= "/assets/sagrada-familia-inside3.jpg"/>
             </ion-card>
          </ion-col>
       </ion-row>
       <ion-row>
          <ion-col>
             <ion-card>
-               <img src= "https://cdn.glitch.com/f4feab55-7fa5-4924-972f-c40e285456cf%2Fwalkin-mountains-small.png?1558912306840"/>
+               <img src= "/assets/sn-monarchsH_1.jpg"/>
             </ion-card>
          </ion-col>
          <ion-col>
             <ion-card>
-               <img src= "https://cdn.glitch.com/f4feab55-7fa5-4924-972f-c40e285456cf%2Fsmall2-with%20text.png?1558911702077"/>
+               <img src= "/assets/anna-tremewan-1447454-unsplash.jpg"/>
             </ion-card>
          </ion-col>
       </ion-row>
