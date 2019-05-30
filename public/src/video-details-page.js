@@ -111,6 +111,7 @@ class videoDetails extends HTMLElement {
                     </ion-col>
                 </ion-row>
             </ion-grid>
+            <footer-component></footer-component>
             </ion-content>
             `
 
