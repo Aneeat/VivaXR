@@ -12,6 +12,7 @@
       <script src="./src/home-page.js"></script>
       <script src="./src/videos-page.js"></script>
       <script src="./src/explore-page.js"></script>
+      <script src="./src/viva-footer.js"></script>
 
    </head>
    <body>
@@ -32,7 +33,7 @@
       
 <!--Icon on right of logo-->
       
-<ion-title><img src="public/assets/TrueVIVAXRlogoP.png"></ion-title>
+<ion-title><img src="/assets/TrueVIVAXRlogoP.png"></ion-title>
       
    <!--Icon on left of logo-->    
       
@@ -53,12 +54,19 @@
                 <ion-route url="/video/details/:id" component="video-details-page"></ion-route>
                 <ion-route url="/explore/categories/:id" component="explore-categories-page"></ion-route>
         </ion-router>
+       
+       
+       
         <ion-nav></ion-nav>
+       
         
-
+        
         <ion-footer>
-         
-        </ion-footer>
+         <ion-content>
+         <viva-footer> 
+         </viva-footer>
+         </ion-footer>
+      </ion-content>
 </ion-app>
 
 
