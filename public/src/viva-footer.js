@@ -1,4 +1,4 @@
-class Footercomponent extends HTMLElement {
+class FooterComponent extends HTMLElement {
     constructor() {
         super();
     }
