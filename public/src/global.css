@@ -152,6 +152,7 @@ ion-button {
 ion-chip{ 
   border: solid 0.5px #512da8;
   background-color: #ffffff;
+  align-content: center
   }
 
 ion-button{
