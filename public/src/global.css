@@ -28,7 +28,7 @@
 }
 
 /* for thin heading text */
-h2{
+#h2{
   font-size: 32px;
   font-family: Roboto-thin;
   font-weight: 100;
@@ -237,4 +237,12 @@ ion-title {
   transform: translate(-50%, -50%);
   color: white;
   font-family: Roboto;
+}
+
+#icons{
+  margin-left: 21px;
+  width: 55px;
+  hight: 55px;
+  margin-top: 50px;
+
 }

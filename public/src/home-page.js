@@ -27,7 +27,7 @@ class HomePage extends HTMLElement {
       </ion-label>
    </ion-col>
    <ion-row>
-      <ion-col size="3">
+      <ion-col size="2">
          <img id="icons"  src = "/assets/PhoneIcon.png" />
       </ion-col>
       <ion-col size="9">
@@ -35,7 +35,7 @@ class HomePage extends HTMLElement {
          <p>We are curating the best mixed reality content, upload your 360 and VR videos and join the community</p>
          <a> Upload a Video </a>
       </ion-col>
-      <ion-col size="3"> 
+      <ion-col size="2"> 
          <img id="icons"  src = "/assets/imageicon.png" />
       </ion-col>
       <ion-col size="9">
@@ -43,7 +43,7 @@ class HomePage extends HTMLElement {
          <p>Be a part of events, concerts, adventure and action from the comfort of your home, watch VR content</p>
          <a> Watch in VR </a>
       </ion-col>
-      <ion-col size="3">
+      <ion-col size="2">
          <img id="icons"  src = "/assets/VRIcon.png" />
       </ion-col>
       <ion-col size="9">
@@ -62,12 +62,8 @@ class HomePage extends HTMLElement {
    </div>
    <ion-card>
       <ion-row>
-         <ion-col size="4">
-            <img class="icons" src = "/assets/Oculus.jpg" />
-         </ion-col>
-         <ion-col size="8">
-            <h3>  Sign up for a chance to win an</h3>
-            <h2>Oculus Go Headset</h2>
+         <ion-col size="12">
+            <img class="icons" src ="/assets/Sponser.jpg" />
          </ion-col>
       </ion-row>
    </ion-card>
