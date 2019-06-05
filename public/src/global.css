@@ -247,10 +247,19 @@ ion-title {
 
 }
 
-#h3 {
-  font-size: 14px;
+h3 {
+  margin-top: 40px; 
+  font-size: 16px;
   font-weight: 200;
   font-family: Roboto;
   line-height: 16px;
   color: black;
+}
+
+.arrow-dropright{
+  margin-left: 21px;
+  width: 55px;
+  hight: 55px;
+  margin-top: 50px;
+
 }
