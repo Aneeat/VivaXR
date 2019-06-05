@@ -17,19 +17,19 @@ class ExplorePage extends HTMLElement {
            <ion-row>
               <ion-col>
                  <ion-card>
-                    <img src= "https://cdn.glitch.com/f4feab55-7fa5-4924-972f-c40e285456cf%2Fbigwithtext-flyingthrough.png?1558912182529"/>
+                    <img src= "/assets/Dolphins.png"/>
                  </ion-card>
               </ion-col>
            </ion-row>
            <ion-row>
               <ion-col>
                  <ion-card>
-                    <img src= "https://cdn.glitch.com/f4feab55-7fa5-4924-972f-c40e285456cf%2Fwalkin-mountains-small.png?1558912306840"/>
+                    <img src= "/assets/Bear.png"/>
                  </ion-card>
               </ion-col>
               <ion-col>
                  <ion-card>
-                    <img src= "https://cdn.glitch.com/f4feab55-7fa5-4924-972f-c40e285456cf%2Fsmall2-with%20text.png?1558911702077"/>
+                    <img src= "/assets/Coral.png"/>
                  </ion-card>
               </ion-col>
            </ion-row>
@@ -111,36 +111,36 @@ class ExplorePage extends HTMLElement {
               <ion-row>
                  <ion-col>
                     <ion-card>
-                       <img src= "https://cdn.glitch.com/f4feab55-7fa5-4924-972f-c40e285456cf%2Fwalkin-mountains-small.png?1558912306840"/>
+                       <img src= "/assets/RM.png"/>
                     </ion-card>
                  </ion-col>
                  <ion-col>
                     <ion-card>
-                       <img src= "https://cdn.glitch.com/f4feab55-7fa5-4924-972f-c40e285456cf%2Fsmall2-with%20text.png?1558911702077"/>
-                    </ion-card>
-                 </ion-col>
-              </ion-row>
-              <ion-row>
-                 <ion-col>
-                    <ion-card>
-                       <img src= "https://cdn.glitch.com/f4feab55-7fa5-4924-972f-c40e285456cf%2Fwalkin-mountains-small.png?1558912306840"/>
-                    </ion-card>
-                 </ion-col>
-                 <ion-col>
-                    <ion-card>
-                       <img src= "https://cdn.glitch.com/f4feab55-7fa5-4924-972f-c40e285456cf%2Fsmall2-with%20text.png?1558911702077"/>
+                       <img src= "/assets/Victoria.png"/>
                     </ion-card>
                  </ion-col>
               </ion-row>
               <ion-row>
                  <ion-col>
                     <ion-card>
-                       <img src= "https://cdn.glitch.com/f4feab55-7fa5-4924-972f-c40e285456cf%2Fwalkin-mountains-small.png?1558912306840"/>
+                       <img src= "/assets/BCNCN.png"/>
                     </ion-card>
                  </ion-col>
                  <ion-col>
                     <ion-card>
-                       <img src= "https://cdn.glitch.com/f4feab55-7fa5-4924-972f-c40e285456cf%2Fsmall2-with%20text.png?1558911702077"/>
+                       <img src= "/assets/Dali.png"/>
+                    </ion-card>
+                 </ion-col>
+              </ion-row>
+              <ion-row>
+                 <ion-col>
+                    <ion-card>
+                       <img src= "/assets/SpaceDreamVR.png"/>
+                    </ion-card>
+                 </ion-col>
+                 <ion-col>
+                    <ion-card>
+                       <img src= "/assets/Elephant.png"/>
                     </ion-card>
                  </ion-col>
               </ion-row>
