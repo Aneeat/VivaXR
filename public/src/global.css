@@ -39,6 +39,7 @@
   color: #000000;
   text-align: center;
   margin-left: 10px
+  
 }
 
 /* for video title text */
@@ -253,4 +254,10 @@ h3 {
   font-family: Roboto;
   line-height: 16px;
   color: black;
+}
+
+h2{
+  margin-top: 18px;
+  font-size: 24px;
+  margin-left: 21px;
 }
