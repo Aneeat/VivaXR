@@ -68,8 +68,7 @@ class HomePage extends HTMLElement {
          <ion-col size="8">
             <h3>Get a 10% discount on your very own headset Oculus Go headset</h3>
             <h2>Oculus Go Headset</h2>
-            <ion-icon name="arrow-dropright"></ion-icon>
-         </ion-col>
+             </ion-col>
       </ion-row>
    </ion-card>
    <div>
