@@ -78,19 +78,19 @@ class HomePage extends HTMLElement {
       <ion-row>
          <ion-col>
             <ion-card>
-               <img src= "/assets/sagrada-familia-inside3.jpg"/>
+               <img src= "/assets/SagradiaFamilia.png"/>
             </ion-card>
          </ion-col>
       </ion-row>
       <ion-row>
          <ion-col>
             <ion-card>
-               <img src= "/assets/sn-monarchsH_1.jpg"/>
+               <img src= "/assets/Monarch.png"/>
             </ion-card>
          </ion-col>
          <ion-col>
             <ion-card>
-               <img src= "/assets/anna-tremewan-1447454-unsplash.jpg"/>
+               <img src= "/assets/NL.png"/>
             </ion-card>
          </ion-col>
       </ion-row>
