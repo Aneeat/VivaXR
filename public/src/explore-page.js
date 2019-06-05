@@ -60,7 +60,7 @@ class ExplorePage extends HTMLElement {
         <ion-chip>
            <ion-label> Dance </ion-label>
         </ion-chip>
-        <div class="chip" align="center">
+        <div class="chip">
         <ion-chip>
            <ion-label> Nature </ion-label>
         </ion-chip>
