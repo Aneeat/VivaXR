@@ -28,7 +28,7 @@
 }
 
 /* for thin heading text */
-h2{
+#h2{
   font-size: 32px;
   font-family: Roboto-thin;
   font-weight: 100;
@@ -38,6 +38,8 @@ h2{
   letter-spacing: normal;
   color: #000000;
   text-align: center;
+  margin-left: 10px
+  
 }
 
 /* for video title text */
@@ -145,13 +147,14 @@ ion-input{
   }
 
 ion-button {
-    background : #fffff;
+    background : #FFFFFF;
     border-radius : 0.2em;
   }
 
 ion-chip{ 
   border: solid 0.5px #512da8;
   background-color: #ffffff;
+  align-content: center
   }
 
 ion-button{
@@ -160,11 +163,9 @@ ion-button{
   border-radius: 10px; 
 }
 
-.footer {
+#footer {
   background-color : #F2F1F5;
   display : flex
-  
-
 }
 
 .footer-border {
@@ -206,8 +207,8 @@ ion-title {
 
 
 .img-icons {
-  width:50%
-  height:50% 
+  width: 50%;
+  height: 50%;
 }
 
 
@@ -237,4 +238,27 @@ ion-title {
   transform: translate(-50%, -50%);
   color: white;
   font-family: Roboto;
+}
+
+#icons{
+  margin-left: 21px;
+  width: 55px;
+  height: 55px;
+  margin-top: 50px;
+
+}
+
+h3 {
+  margin-top: 40px; 
+  font-size: 16px;
+  font-weight: 200;
+  font-family: Roboto;
+  line-height: 16px;
+  color: black;
+}
+
+h2{
+  margin-top: 18px;
+  font-size: 24px;
+  margin-left: 21px;
 }
