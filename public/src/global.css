@@ -147,7 +147,7 @@ ion-input{
   }
 
 ion-button {
-    background : #fffff;
+    background : #FFFFFF;
     border-radius : 0.2em;
   }
 
@@ -207,8 +207,8 @@ ion-title {
 
 
 .img-icons {
-  width:50%
-  height:50% 
+  width: 50%;
+  height: 50%;
 }
 
 
@@ -243,7 +243,7 @@ ion-title {
 #icons{
   margin-left: 21px;
   width: 55px;
-  hight: 55px;
+  height: 55px;
   margin-top: 50px;
 
 }
