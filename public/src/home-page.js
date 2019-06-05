@@ -19,7 +19,7 @@ class HomePage extends HTMLElement {
       <h1>DISCOVER. CREATE. IMMERSE.</h1>
       <p>Viva XR helps artists and fans</p>
       <p>intimately connect using Mixed Reality Technology</p>
-      <ion-button color="secondary">UPLOAD</ion-button> <ion-button>EXPLORE</ion-button>
+      <ion-button color="secondary">UPLOAD</ion-button> <ion-button href="/explore">EXPLORE</ion-button>
    </div>
    <ion-col>
       <h2 align="center">How It Works</h2>
@@ -44,7 +44,7 @@ class HomePage extends HTMLElement {
          <a> Watch in VR </a>
       </ion-col>
       <ion-col size="3">
-         <img id="icons"  src = "/assets/VRIcon.png" />
+         <img id="icons"  src="/assets/VRIcon.png" />
       </ion-col>
       <ion-col size="9">
          <h3> Immerse </h3>
@@ -63,7 +63,7 @@ class HomePage extends HTMLElement {
    <ion-card>
       <ion-row>
          <ion-col size="4">
-            <img class="icons" src = "/assets/Oculus.jpg" />
+            <img class="icons" src="/assets/Oculus.jpg" />
          </ion-col>
          <ion-col size="8">
             <h3>  Sign up for a chance to win an</h3>
@@ -78,19 +78,19 @@ class HomePage extends HTMLElement {
       <ion-row>
          <ion-col>
             <ion-card>
-               <img src= "/assets/SagradiaFamilia.png"/>
+               <img src="/assets/SagradiaFamilia.png"/>
             </ion-card>
          </ion-col>
       </ion-row>
       <ion-row>
          <ion-col>
             <ion-card>
-               <img src= "/assets/Monarch.png"/>
+               <img src="/assets/Monarch.png"/>
             </ion-card>
          </ion-col>
          <ion-col>
             <ion-card>
-               <img src= "/assets/NL.png"/>
+               <img src="/assets/NL.png"/>
             </ion-card>
          </ion-col>
       </ion-row>
