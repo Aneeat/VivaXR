@@ -62,8 +62,12 @@ class HomePage extends HTMLElement {
    </div>
    <ion-card>
       <ion-row>
-         <ion-col size="12">
-            <img class="icons" src ="/assets/Sponser.jpg" />
+         <ion-col size="4">
+            <img class="icons" src = "/assets/Oculus.jpg" />
+         </ion-col>
+         <ion-col size="8">
+            <h3>Get a 10% discount on your very own headset Oculus Go headset</h3>
+            <h2>Oculus Go Headset</h2>
          </ion-col>
       </ion-row>
    </ion-card>

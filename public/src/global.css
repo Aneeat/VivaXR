@@ -246,3 +246,11 @@ ion-title {
   margin-top: 50px;
 
 }
+
+#h3 {
+  font-size: 14px;
+  font-weight: 200;
+  font-family: Roboto;
+  line-height: 16px;
+  color: black;
+}
