@@ -163,7 +163,7 @@ ion-button{
   border-radius: 10px; 
 }
 
-#footer {
+.footer {
   background-color : #F2F1F5;
   display : flex
 }
@@ -217,7 +217,7 @@ ion-title {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://cdn.glitch.com/62308f07-7e5c-4e0b-b423-e20d18091413%2FHome%20Header.jpg?1557846419110");
 
   /* Set a specific height */
-  height: 300 px;
+  height: 400 px;
 
   /* Position and center the image to scale nicely on all screens */
   background-position: center;
