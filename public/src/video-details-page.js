@@ -4,7 +4,7 @@ class videoDetails extends HTMLElement {
     }
     connectedCallback() {
         this.innerHTML = ` <ion-content>
-        <iframe class="iframe-container" src="https://www.youtube.com/embed/ELQh3z4KrXk" frameborder="0" allow="accelerometer; autoplay=1; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe class="iframe-container" src="https://www.youtube.com/embed/ELQh3z4KrXk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
         <!--Video details start here-->
 
