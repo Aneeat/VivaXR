@@ -17,7 +17,7 @@ class ExplorePage extends HTMLElement {
            <ion-row>
               <ion-col>
                  <ion-card>
-                    <img src= "/assets/Dolphins.png"/>
+                   <a href="/#/video/details/1"> <img src= "/assets/Dolphins.png"/></a>
                  </ion-card>
               </ion-col>
            </ion-row>
