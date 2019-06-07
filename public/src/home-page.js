@@ -78,7 +78,7 @@ class HomePage extends HTMLElement {
       <ion-row>
          <ion-col>
             <ion-card>
-               <img src="/assets/SagradiaFamilia.png"/>
+            <a href="https://youtu.be/kCFWmhUWeNs"><img src="/assets/SagradiaFamilia.png"/></a>
             </ion-card>
          </ion-col>
       </ion-row>
