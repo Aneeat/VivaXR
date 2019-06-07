@@ -27,7 +27,7 @@ class HomePage extends HTMLElement {
       </ion-label>
    </ion-col>
    <ion-row>
-      <ion-col size="2">
+      <ion-col size="3">
          <img id="icons"  src = "/assets/PhoneIcon.png" />
       </ion-col>
       <ion-col size="9">
@@ -35,7 +35,7 @@ class HomePage extends HTMLElement {
          <p>We are curating the best mixed reality content, upload your 360 and VR videos and join the community</p>
          <a> Upload a Video </a>
       </ion-col>
-      <ion-col size="2"> 
+      <ion-col size="3"> 
          <img id="icons"  src = "/assets/imageicon.png" />
       </ion-col>
       <ion-col size="9">
