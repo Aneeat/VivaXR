@@ -28,7 +28,7 @@
 }
 
 /* for thin heading text */
-#h2{
+h2{
   font-size: 32px;
   font-family: Roboto-thin;
   font-weight: 100;
@@ -43,6 +43,7 @@
 }
 
 /* for video title text */
+
 #h1 {
   font-size: 18px;
   font-family: Roboto;
@@ -57,8 +58,6 @@ h3 {
   line-height: 16px;
   color: black;
 }
-
-
 
 h4 {
 
@@ -182,8 +181,6 @@ ion-button{
   border-right: solid blue;
   border-width: thin;
   border: 0.5px solid #512DA8;
-  
-  
 }
 
 .disclaimer-text {
@@ -192,9 +189,6 @@ ion-button{
   color: #4A4A4A;
 
 }
-
-
-
 
 ion-title {
   position: fixed;
@@ -223,11 +217,8 @@ ion-title {
 .hero {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://cdn.glitch.com/62308f07-7e5c-4e0b-b423-e20d18091413%2FHome%20Header.jpg?1557846419110");
-
   /* Set a specific height */
   height: 20em;
-
-
   /* Position and center the image to scale nicely on all screens */
   background-position: center;
   background-repeat: no-repeat;
@@ -254,7 +245,6 @@ ion-title {
   width: 55px;
   height: 55px;
   margin-top: 50px;
-
 }
 
 .share-icons{
@@ -262,3 +252,4 @@ align-items: flex-end;
 
 
 }
+

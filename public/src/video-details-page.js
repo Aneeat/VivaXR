@@ -23,19 +23,16 @@ class videoDetails extends HTMLElement {
          </ion-row>
             </ion-grid>
             <h5> <b>142 </b> Views </h5>
-        
-    
             <h6>  2 days ago by Sash Snow </h6>
             <div>
                 <input type="checkbox" class="read-more-state" id="expand" />
-                <p class="read-more-wrap"> This is a video description which is much longer hence Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                <p class="read-more-wrap"> Escape to the lush Temperate Rain forest of Southern NSW Australia in virtual reality 360 video with nature audio sounds recorded on  
                     <span class="read-more-target">
-               incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
-               </span>
+                    location. Hear the tranquil sounds of flowing water and the mating song of the lyrebird mimicking local birds. Look around the old Gondwanaland rainforest and giant fig tree. A short escape meditation in the back to nature series. 
+           </span>
                 </p>
                 <label for="expand" class="read-more-trigger"></label>
             </div>
-    
             <div>
                 <h5> Similar categories </h5>
                 <div class="chip">
@@ -63,7 +60,7 @@ class videoDetails extends HTMLElement {
                 <ion-row>
                     <ion-col>
                         <ion-card>
-                            <img src="assets/big2-withtext-fish.png" />
+                            <img src="assets/big2-withtext-fish.png">
                         </ion-card>
                     </ion-col>
                 </ion-row>
@@ -72,12 +69,12 @@ class videoDetails extends HTMLElement {
     
                     <ion-col>
                         <ion-card>
-                            <img src=".assets/small-4-sea-flower.png" />
+                            <img src=".assets/small-4-sea-flower.png">
                         </ion-card>
                     </ion-col>
                     <ion-col>
                         <ion-card>
-                            <img src="assets/small-mountains-3.png" />
+                            <img src="assets/small-mountains-3.png">
                         </ion-card>
                     </ion-col>
                 </ion-row>
@@ -90,7 +87,7 @@ class videoDetails extends HTMLElement {
                 <ion-row>
                     <ion-col>
                         <ion-card>
-                            <img src="assets/bigwithtext-flyingthrough.png" />
+                            <img src="/assets/Rainforest.png">
                         </ion-card>
     
                     </ion-col>
@@ -100,13 +97,13 @@ class videoDetails extends HTMLElement {
                     <ion-col>
     
                         <ion-card>
-                            <img src="./assets/walkin-mountains-small.png" />
+                            <img src="./assets/walkin-mountains-small.png">
                         </ion-card>
     
                     </ion-col>
                     <ion-col>
                         <ion-card>
-                            <img src="assets/small2-with text.png" />
+                            <img src="assets/small2-with text.png">
                         </ion-card>
                     </ion-col>
                 </ion-row>
