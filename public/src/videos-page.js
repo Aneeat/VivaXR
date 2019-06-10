@@ -12,7 +12,7 @@ class VideosPage extends HTMLElement {
          <ion-grid> 
        <ion-row class="ion-align-items-center">
          <ion-column>
-         <h3> Rainforests </h3>
+         <h2> Rainforests </h2>
          </ion-column>
          
          <ion-column>

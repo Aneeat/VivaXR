@@ -28,7 +28,7 @@
 }
 
 /* for thin heading text */
-#h2{
+h2{
   font-size: 32px;
   font-family: Roboto-thin;
   font-weight: 100;
@@ -47,6 +47,15 @@ h1 {
   font-size: 12px;
   font-family: Roboto;
   font-weight: bold;
+}
+
+h3 {
+  margin-top: 40px; 
+  font-size: 16px;
+  font-weight: 200;
+  font-family: Roboto;
+  line-height: 16px;
+  color: black;
 }
 
 h4 {
@@ -249,17 +258,4 @@ ion-title {
 
 }
 
-h3 {
-  margin-top: 40px; 
-  font-size: 16px;
-  font-weight: 200;
-  font-family: Roboto;
-  line-height: 16px;
-  color: black;
-}
 
-h2{
-  margin-top: 18px;
-  font-size: 24px;
-  margin-left: 21px;
-}
