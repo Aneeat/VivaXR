@@ -30,16 +30,10 @@
 /* for thin heading text */
 h2{
   font-size: 32px;
-  font-family: Roboto-thin;
-  font-weight: 100;
+  font-family: Roboto-thin; 
   font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: #000000;
+  color:black;
   text-align: center;
-  margin-left: 10px
-  
 }
 
 /* for video title text */
