@@ -44,7 +44,7 @@ h2{
 
 /* for video title text */
 h1 {
-  font-size: 12px;
+  font-size: 18px;
   font-family: Roboto;
   font-weight: bold;
 }
@@ -247,7 +247,7 @@ ion-title {
   margin-top: 50px;
 }
 
-ion-buttons{
--ms-grid-column-align: end;
-size: large;
+.share-icon-video-page {
+  size: large;
+  align-content: flex-end;
 }

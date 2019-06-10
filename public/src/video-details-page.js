@@ -11,22 +11,19 @@ class videoDetails extends HTMLElement {
         <div class="ion-margin-start">
             <ion-grid>
                 <ion-row>
-                    <ion-column>
-                    <h2> Rainforests </h2>
-                    </ion-column>
-
-                    <ion-column>
+                    <h1> Rainforests </h1>
                         <ion-buttons class="share-icon-video-page">
                             <ion-icon name="share" color="primary"></ion-icon>
                         </ion-buttons>
-                    </ion-column>
                 </ion-row>
             </ion-grid>
             <ion-row>
             <div class="video-views"> 142 Views </div>
             </ion-row>
-
+            <ion-row>
             <h7> Sasha Snow | 3rd July, 2019 </h7>
+            </ion-row>
+           <ion-row>
             <div>
                 <input type="checkbox" class="read-more-state" id="expand" />
                 <p class="read-more-wrap"> Escape to the lush Temperate Rain forest of Southern NSW Australia in virtual reality 360 video with nature audio sounds recorded on  
@@ -36,7 +33,7 @@ class videoDetails extends HTMLElement {
                 </p>
                 <label for="expand" class="read-more-trigger"></label>
             </div>
-
+           </ion-row>
             <div>
                 <h5> Similar categories </h5>
                 <div class="chip">
@@ -64,7 +61,7 @@ class videoDetails extends HTMLElement {
                 <ion-row>
                     <ion-col>
                         <ion-card>
-                            <img src="assets/big2-withtext-fish.png" />
+                            <img src="assets/big2-withtext-fish.png">
                         </ion-card>
                     </ion-col>
                 </ion-row>
@@ -73,12 +70,12 @@ class videoDetails extends HTMLElement {
 
                     <ion-col>
                         <ion-card>
-                            <img src=".assets/small-4-sea-flower.png" />
+                            <img src=".assets/small-4-sea-flower.png">
                         </ion-card>
                     </ion-col>
                     <ion-col>
                         <ion-card>
-                            <img src="assets/small-mountains-3.png" />
+                            <img src="assets/small-mountains-3.png">
                         </ion-card>
                     </ion-col>
                 </ion-row>
@@ -91,7 +88,7 @@ class videoDetails extends HTMLElement {
                 <ion-row>
                     <ion-col>
                         <ion-card>
-                            <img src="assets/bigwithtext-flyingthrough.png" />
+                            <img src="/assets/Rainforest.png">
                         </ion-card>
 
                     </ion-col>
@@ -101,17 +98,18 @@ class videoDetails extends HTMLElement {
                     <ion-col>
 
                         <ion-card>
-                            <img src="./assets/walkin-mountains-small.png" />
+                            <img src="./assets/walkin-mountains-small.png">
                         </ion-card>
 
                     </ion-col>
                     <ion-col>
                         <ion-card>
-                            <img src="assets/small2-with text.png" />
+                            <img src="assets/small2-with text.png">
                         </ion-card>
                     </ion-col>
                 </ion-row>
             </ion-grid>
+            </div>
             <footer-component></footer-component>
             </ion-content>
             `

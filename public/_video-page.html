@@ -1,153 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Hello!</title>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- import the webpage's stylesheet -->
-    <link rel="stylesheet" href="./assets/src/global.css">
-    <!-- import the webpage's javascript file -->
-    <script src="https://unpkg.com/ionicons@latest/dist/ionicons.js"></script>
-   <script src="https://unpkg.com/@ionic/core@latest/dist/ionic.js"></script>
-   <link href="https://unpkg.com/@ionic/core@latest/css/ionic.bundle.css" rel="stylesheet">
+   <title>Viva XR!</title>
+      <meta charset="utf-8">
+      <link rel="manifest" href="/manifest.json">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <script src="https://unpkg.com/ionicons@latest/dist/ionicons.js"></script>
+      <script src="https://unpkg.com/@ionic/core@latest/dist/ionic.js"></script>
+      <link href="https://unpkg.com/@ionic/core@latest/css/ionic.bundle.css" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="src/global.css">
+   
   </head>  
 <body>
 <ion-app>
 <ion-content>
+            <iframe class="iframe-container" src="https://www.youtube.com/embed/ELQh3z4KrXk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+            <!--Video details start here-->
+    
+            <div class="ion-margin-start">
+                <ion-grid>
+                    <ion-row>
+                        <h1> Rainforests </h1>
+                            <ion-buttons class="share-icon-video-page">
+                                <ion-icon name="share" color="primary"></ion-icon>
+                            </ion-buttons>
+                    </ion-row>
+                </ion-grid>
+                <ion-row>
+                <div class="video-views"> 142 Views </div>
+                </ion-row>
+                <ion-row>
+                <h7> Sasha Snow | 3rd July, 2019 </h7>
+                </ion-row>
+               <ion-row>
+                <div>
+                    <input type="checkbox" class="read-more-state" id="expand" />
+                    <p class="read-more-wrap"> Escape to the lush Temperate Rain forest of Southern NSW Australia in virtual reality 360 video with nature audio sounds recorded on  
+                        <span class="read-more-target">
+                        location. Hear the tranquil sounds of flowing water and the mating song of the lyrebird mimicking local birds. Look around the old Gondwanaland rainforest and giant fig tree. A short escape meditation in the back to nature series. 
+               </span>
+                    </p>
+                    <label for="expand" class="read-more-trigger"></label>
+                </div>
+               </ion-row>
+                <div>
+                    <h5> Similar categories </h5>
+                    <div class="chip">
+                        <ion-chip>
+                            <ion-label> History </ion-label>
+                        </ion-chip>
+                        <ion-chip>
+                            <ion-label> Nature </ion-label>
+                        </ion-chip>
+                        <ion-chip>
+                            <ion-label> Travel </ion-label>
+                        </ion-chip>
+                        <ion-chip>
+                            <ion-label> Adventure </ion-label>
+                        </ion-chip>
+                    </div>
+                </div>
+                <br>
+                <br>
+    
+                <!--Similar videos start here-->
+    
+                <h2> Similar Videos</h2>
+                <ion-grid>
+                    <ion-row>
+                        <ion-col>
+                            <ion-card>
+                                <img src="assets/big2-withtext-fish.png" />
+                            </ion-card>
+                        </ion-col>
+                    </ion-row>
+    
+                    <ion-row>
+    
+                        <ion-col>
+                            <ion-card>
+                                <img src=".assets/small-4-sea-flower.png" />
+                            </ion-card>
+                        </ion-col>
+                        <ion-col>
+                            <ion-card>
+                                <img src="assets/small-mountains-3.png" />
+                            </ion-card>
+                        </ion-col>
+                    </ion-row>
+                </ion-grid>
+                <br>
+                <br>
+    
+                <h2> Featured Videos</h2>
+                <ion-grid>
+                    <ion-row>
+                        <ion-col>
+                            <ion-card>
+                                <img src="assets/bigwithtext-flyingthrough.png" />
+                            </ion-card>
+    
+                        </ion-col>
+                    </ion-row>
+    
+                    <ion-row>
+                        <ion-col>
+    
+                            <ion-card>
+                                <img src="./assets/walkin-mountains-small.png" />
+                            </ion-card>
+    
+                        </ion-col>
+                        <ion-col>
+                            <ion-card>
+                                <img src="assets/small2-with text.png" />
+                            </ion-card>
+                        </ion-col>
+                    </ion-row>
+                </ion-grid>
+                </div>
+                <footer-component></footer-component>
+                </ion-content>
 
- <iframe  class="iframe-container" src="https://www.youtube.com/embed/ELQh3z4KrXk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
- <div class="ion-margin-start">
-      <ion-grid> 
-    <ion-row class="ion-align-items-center">
-      <ion-column>
-      <h3> Rainforests </h3>
-      </ion-column>
-      
-      <ion-column>
-<ion-buttons slot="end">
-
-        <ion-icon name="share"></ion-icon>
-        </ion-buttons>
-      </ion-column>
-        </ion-row>
-      </ion-grid>
-      <div class="video-views"> 142 Views </div>
-      
-     <h6> Sasha Snow | 3rd July, 2019 </h6>
-     <div>
-        <input type="checkbox" class="read-more-state" id="expand"/>
-        <p class="read-more-wrap"> This is a video description which is much longer hence Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-           <span class="read-more-target">
-           incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
-           </span> 
-        </p>
-        <label for="expand" class="read-more-trigger"></label>
-     </div>
  
-     <div>
-        <h5> Similar categories </h5>
-        <div class="chip">
-           <ion-chip>
-              <ion-label> History </ion-label>
-           </ion-chip>
-           <ion-chip>
-              <ion-label> Nature </ion-label>
-           </ion-chip>
-           <ion-chip>
-              <ion-label> Travel </ion-label>
-           </ion-chip>
-           <ion-chip>
-              <ion-label> Adventure </ion-label>
-           </ion-chip>
-        </div>
-     </div>
-      <br>
-      <br>
-
-        <!--Similar videos start here-->
-
-      <h2> Similar Videos</h2>
-   <ion-grid>
-      <ion-row>
-        <ion-col>
-          <ion-card>
-              <img src= "/assets/Dolphins.png"/>
-          </ion-card>
-        </ion-col>
-       </ion-row>
-     
-       <ion-row>
-
-        <ion-col>
-          <ion-card>
-              <img src= "https://firebasestorage.googleapis.com/v0/b/vivaxr-dbc49.appspot.com/o/Group%20(2).png?alt=media&token=64df7946-51e2-427c-b8f3-74abd929fea0">
-          </ion-card>
-        </ion-col>
-        <ion-col>
-          <ion-card>
-              <img src= "https://firebasestorage.googleapis.com/v0/b/vivaxr-dbc49.appspot.com/o/johnny-chen-77988-unsplash.jpg?alt=media&token=e69f9191-fd1c-4249-a1d5-ab7ddf244107">
-          </ion-card>
-        </ion-col>
-       </ion-row>
-    </ion-grid>
-      <br>
-      <br>
-
-     <h2> Featured Videos</h2>
-     <ion-grid>
-      <ion-row>
-        <ion-col>
-    <ion-card>
-              <img src= "https://firebasestorage.googleapis.com/v0/b/vivaxr-dbc49.appspot.com/o/TrueVIVAXRlogoP.png?alt=media&token=668a07f7-ff10-4672-be1f-72f8542a6a91">
-          </ion-card>
-       
-        </ion-col>
-       </ion-row>
-       
-       <ion-row>
-        <ion-col>
-       
-              <ion-card>
-              <img src= "https://cdn.glitch.com/f4feab55-7fa5-4924-972f-c40e285456cf%2Fwalkin-mountains-small.png?1558912306840"/>
-          </ion-card>
-  
-        </ion-col>
-        <ion-col>
-          <ion-card>
-              <img src= "https://cdn.glitch.com/f4feab55-7fa5-4924-972f-c40e285456cf%2Fsmall2-with%20text.png?1558911702077"/>
-          </ion-card>
-        </ion-col>
-     </ion-row>
-    </ion-grid>
- <footer>
-    <ion-row>
-       <ion-col size="4">
-          <h6 class="footertext"> About us</h6>
-          <h6 class="footertext"> How it works</h6>
-          <h6 class="footertext"> Explore</h6>
-          <h6 class="footertext"> Promotions</h6>
-       </ion-col>
-       <ion-col size="4">
-          <h6 class="footertext"> Upload a video</h6>
-          <h6 class="footertext"> Support</h6>
-          <h6 class="footertext"> FAQ's</h6>
-       </ion-col>
-       <ion-col size="4">
-          <h6 class="footertext"> Connect with us</h6>
-          <ion-icon name="logo-facebook"></ion-icon>
-          <ion-icon name="logo-twitter"></ion-icon>
-          <ion-icon name="logo-instagram"></ion-icon>
-          <ion-icon name="logo-linkedin"></ion-icon>
-       </ion-col>
-    </ion-row>
-    </footer>
-    <ion-col class="disclaimer-text" size="12">
- Copyright | Disclaimer | Terms & Conditions | Privacy Policy 
-    </ion-col>
-</ion-content>
                   
 </ion-app>
 </body>
-<script src="./src/video-page.js"></script>
 </html>
