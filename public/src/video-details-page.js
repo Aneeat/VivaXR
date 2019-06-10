@@ -3,27 +3,27 @@ class videoDetails extends HTMLElement {
         super();
     }
     connectedCallback() {
-        this.innerHTML = ` <ion-content>
+        this.innerHTML = ` 
+        <ion-content>
         <iframe class="iframe-container" src="https://www.youtube.com/embed/ELQh3z4KrXk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+    
         <!--Video details start here-->
-
+    
         <div class="ion-margin-start">
             <ion-grid>
-                <ion-row>
-                    <h1> Rainforests </h1>
-                        <ion-buttons class="share-icon-video-page">
-                            <ion-icon name="share" color="primary"></ion-icon>
-                        </ion-buttons>
-                </ion-row>
+            <ion-row>
+            <ion-column>
+            <h1> Rainforests </h1>
+            </ion-column>
+            <ion-column>
+             <ion-buttons slot="end">
+              <ion-icon name="share" size="large" color="primary"></ion-icon>
+              </ion-buttons>
+            </ion-column>
+         </ion-row>
             </ion-grid>
-            <ion-row>
-            <div class="video-views"> 142 Views </div>
-            </ion-row>
-            <ion-row>
-            <h7> Sasha Snow | 3rd July, 2019 </h7>
-            </ion-row>
-           <ion-row>
+            <h5> <b>142 </b> Views </h5>
+            <h6>  2 days ago by Sash Snow </h6>
             <div>
                 <input type="checkbox" class="read-more-state" id="expand" />
                 <p class="read-more-wrap"> Escape to the lush Temperate Rain forest of Southern NSW Australia in virtual reality 360 video with nature audio sounds recorded on  
@@ -33,7 +33,6 @@ class videoDetails extends HTMLElement {
                 </p>
                 <label for="expand" class="read-more-trigger"></label>
             </div>
-           </ion-row>
             <div>
                 <h5> Similar categories </h5>
                 <div class="chip">
@@ -53,9 +52,9 @@ class videoDetails extends HTMLElement {
             </div>
             <br>
             <br>
-
+    
             <!--Similar videos start here-->
-
+    
             <h2> Similar Videos</h2>
             <ion-grid>
                 <ion-row>
@@ -65,9 +64,9 @@ class videoDetails extends HTMLElement {
                         </ion-card>
                     </ion-col>
                 </ion-row>
-
+    
                 <ion-row>
-
+    
                     <ion-col>
                         <ion-card>
                             <img src=".assets/small-4-sea-flower.png">
@@ -82,7 +81,7 @@ class videoDetails extends HTMLElement {
             </ion-grid>
             <br>
             <br>
-
+    
             <h2> Featured Videos</h2>
             <ion-grid>
                 <ion-row>
@@ -90,17 +89,17 @@ class videoDetails extends HTMLElement {
                         <ion-card>
                             <img src="/assets/Rainforest.png">
                         </ion-card>
-
+    
                     </ion-col>
                 </ion-row>
-
+    
                 <ion-row>
                     <ion-col>
-
+    
                         <ion-card>
                             <img src="./assets/walkin-mountains-small.png">
                         </ion-card>
-
+    
                     </ion-col>
                     <ion-col>
                         <ion-card>
@@ -109,9 +108,9 @@ class videoDetails extends HTMLElement {
                     </ion-col>
                 </ion-row>
             </ion-grid>
-            </div>
+        </div>
             <footer-component></footer-component>
-            </ion-content>
+    </ion-content>
             `
 
     }

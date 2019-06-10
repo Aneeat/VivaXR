@@ -43,7 +43,8 @@ h2{
 }
 
 /* for video title text */
-h1 {
+
+#h1 {
   font-size: 18px;
   font-family: Roboto;
   font-weight: bold;
@@ -68,7 +69,7 @@ text-align: right;
 
 /* for uploaded by text */
 h5 {
-  font-size: 10px;
+  font-size: 14px;
   font-family: Roboto;
   color: #4A4A4A;
   
@@ -101,14 +102,12 @@ VivaLogo1 {
 }
   
 .video-views {
-position: absolute;
 font-family: Roboto;
 font-style: normal;
-font-weight: bold;
 font-size: 14px;
 color: #4A4A4A;
 text-align: right;
-margin-left: 3em
+padding: 0%;
 }
 
 .btn-container{
@@ -158,6 +157,7 @@ ion-input{
 ion-button {
     background : #FFFFFF;
     border-radius : 0.2em;
+    size : large;
   }
 
 ion-chip{ 
@@ -247,7 +247,9 @@ ion-title {
   margin-top: 50px;
 }
 
-.share-icon-video-page {
-  size: large;
-  align-content: flex-end;
+.share-icons{
+align-items: flex-end;
+
+
 }
+
