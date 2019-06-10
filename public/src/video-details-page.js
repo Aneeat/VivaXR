@@ -12,14 +12,14 @@ class videoDetails extends HTMLElement {
         <div class="ion-margin-start">
             <ion-grid>
             <ion-row>
-            <ion-column>
+            <ion-col>
             <h1> Rainforests </h1>
-            </ion-column>
-            <ion-column>
+            </ion-col>
+            <ion-col>
              <ion-buttons slot="end">
               <ion-icon name="share" size="large" color="primary"></ion-icon>
               </ion-buttons>
-            </ion-column>
+            </ion-col>
          </ion-row>
             </ion-grid>
             <h5> <b>142 </b> Views </h5>
