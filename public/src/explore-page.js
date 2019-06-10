@@ -4,7 +4,8 @@ class ExplorePage extends HTMLElement {
     }
     connectedCallback() {
         
-        this.innerHTML = `<ion-content>
+        this.innerHTML = `
+        <ion-content>
         <div>
            <img id="hero" src="https://firebasestorage.googleapis.com/v0/b/vivaxr-dbc49.appspot.com/o/Group%20(2).png?alt=media&token=64df7946-51e2-427c-b8f3-74abd929fea0">
         </div>
@@ -145,8 +146,18 @@ class ExplorePage extends HTMLElement {
                  </ion-col>
               </ion-row>
            </ion-grid>
+           <ion-card>
+         <ion-card-content>
+        <img id="icons" src="/assets/imageicon.png" align="center"/>
+        <p>Get personalised video recommendations and updates of latest video releases</p>
+        <br>
+        <ion-button color="secondary">CREATE AN ACOUNT</ion-button>
+         </ion-card-content>
+          </ion-card>
            <footer-component></footer-component>
-        </div>`
+        </div>
+        </ion-content>
+        `
 
     }
 }
