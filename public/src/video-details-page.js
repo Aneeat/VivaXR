@@ -10,27 +10,28 @@ class videoDetails extends HTMLElement {
 
         <div class="ion-margin-start">
             <ion-grid>
-                <ion-row class="ion-align-items-center">
+                <ion-row>
                     <ion-column>
-                        <h3> Rainforests </h3>
+                    <h2> Rainforests </h2>
                     </ion-column>
 
                     <ion-column>
-                        <ion-buttons slot="end">
-
-                            <ion-icon name="share"></ion-icon>
+                        <ion-buttons class="share-icon-video-page">
+                            <ion-icon name="share" color="primary"></ion-icon>
                         </ion-buttons>
                     </ion-column>
                 </ion-row>
             </ion-grid>
+            <ion-row>
             <div class="video-views"> 142 Views </div>
+            </ion-row>
 
-            <h6> Sasha Snow | 3rd July, 2019 </h6>
+            <h7> Sasha Snow | 3rd July, 2019 </h7>
             <div>
                 <input type="checkbox" class="read-more-state" id="expand" />
-                <p class="read-more-wrap"> This is a video description which is much longer hence Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                <p class="read-more-wrap"> Escape to the lush Temperate Rain forest of Southern NSW Australia in virtual reality 360 video with nature audio sounds recorded on  
                     <span class="read-more-target">
-           incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+                    location. Hear the tranquil sounds of flowing water and the mating song of the lyrebird mimicking local birds. Look around the old Gondwanaland rainforest and giant fig tree. A short escape meditation in the back to nature series. 
            </span>
                 </p>
                 <label for="expand" class="read-more-trigger"></label>
