@@ -49,7 +49,9 @@ class HomePage extends HTMLElement {
       <ion-col size="9">
          <h3> Immerse </h3>
          <p>There’s a virtual world waiting to be explored, immerse yourself in a new adventure everyday</p>
-         <a>Create an Account</a>
+         <!-- test link to video html to be removed-->
+
+         <a href="public/_video-page.html"> Create an Account</a>
       </ion-col>
    </ion-row>
    <div>

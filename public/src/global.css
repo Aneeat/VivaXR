@@ -181,8 +181,6 @@ ion-button{
   border-right: solid blue;
   border-width: thin;
   border: 0.5px solid #512DA8;
-  
-  
 }
 
 .disclaimer-text {
@@ -191,11 +189,6 @@ ion-button{
   color: #4A4A4A;
 
 }
-
-
-
-
-
 
 ion-title {
   position: fixed;
@@ -224,11 +217,8 @@ ion-title {
 .hero {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://cdn.glitch.com/62308f07-7e5c-4e0b-b423-e20d18091413%2FHome%20Header.jpg?1557846419110");
-
   /* Set a specific height */
   height: 20em;
-
-
   /* Position and center the image to scale nicely on all screens */
   background-position: center;
   background-repeat: no-repeat;
@@ -255,7 +245,9 @@ ion-title {
   width: 55px;
   height: 55px;
   margin-top: 50px;
-
 }
 
-
+ion-buttons{
+-ms-grid-column-align: end;
+size: large;
+}
