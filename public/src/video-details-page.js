@@ -60,7 +60,7 @@ class videoDetails extends HTMLElement {
                 <ion-row>
                     <ion-col>
                         <ion-card>
-                            <img src="assets/big2-withtext-fish.png">
+                        <a href="/#/video/details/1"> <img src= "assets/Dolphins.png"></a>
                         </ion-card>
                     </ion-col>
                 </ion-row>
@@ -69,12 +69,12 @@ class videoDetails extends HTMLElement {
     
                     <ion-col>
                         <ion-card>
-                            <img src=".assets/small-4-sea-flower.png">
+                        <a href="/#/video/details/1"> <img src= "/assets/BCNCN.png"></a>
                         </ion-card>
                     </ion-col>
                     <ion-col>
                         <ion-card>
-                            <img src="assets/small-mountains-3.png">
+                        <a href="/#/video/details/1"> <img src= "/assets/SpaceDreamVR.png"></a>
                         </ion-card>
                     </ion-col>
                 </ion-row>
@@ -87,7 +87,7 @@ class videoDetails extends HTMLElement {
                 <ion-row>
                     <ion-col>
                         <ion-card>
-                            <img src="/assets/Rainforest.png">
+                        <a href="/#/video/details/1"> <img src= "/assets/Rainforest.png"></a>
                         </ion-card>
     
                     </ion-col>
@@ -97,13 +97,13 @@ class videoDetails extends HTMLElement {
                     <ion-col>
     
                         <ion-card>
-                            <img src="./assets/walkin-mountains-small.png">
+                        <a href="/#/video/details/1"> <img src= "/assets/Bear.png"></a>
                         </ion-card>
     
                     </ion-col>
                     <ion-col>
                         <ion-card>
-                            <img src="assets/small2-with text.png">
+                        <a href="/#/video/details/1"> <img src= "/assets/Coral.png"></a>
                         </ion-card>
                     </ion-col>
                 </ion-row>
