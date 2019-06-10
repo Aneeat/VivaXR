@@ -43,11 +43,22 @@
 }
 
 /* for video title text */
-h1 {
-  font-size: 12px;
+#h1 {
+  font-size: 18px;
   font-family: Roboto;
   font-weight: bold;
 }
+
+h3 {
+  margin-top: 40px; 
+  font-size: 16px;
+  font-weight: 200;
+  font-family: Roboto;
+  line-height: 16px;
+  color: black;
+}
+
+
 
 h4 {
 
@@ -59,7 +70,7 @@ text-align: right;
 
 /* for uploaded by text */
 h5 {
-  font-size: 10px;
+  font-size: 14px;
   font-family: Roboto;
   color: #4A4A4A;
   
@@ -92,14 +103,12 @@ VivaLogo1 {
 }
   
 .video-views {
-position: absolute;
 font-family: Roboto;
 font-style: normal;
-font-weight: bold;
 font-size: 14px;
 color: #4A4A4A;
 text-align: right;
-margin-left: 3em
+padding: 0%;
 }
 
 .btn-container{
@@ -149,6 +158,7 @@ ion-input{
 ion-button {
     background : #FFFFFF;
     border-radius : 0.2em;
+    size : large;
   }
 
 ion-chip{ 
@@ -182,8 +192,6 @@ ion-button{
   color: #4A4A4A;
 
 }
-
-
 
 
 
@@ -249,17 +257,8 @@ ion-title {
 
 }
 
-h3 {
-  margin-top: 40px; 
-  font-size: 16px;
-  font-weight: 200;
-  font-family: Roboto;
-  line-height: 16px;
-  color: black;
-}
+.share-icons{
+align-items: flex-end;
 
-h2{
-  margin-top: 18px;
-  font-size: 24px;
-  margin-left: 21px;
+
 }

@@ -1,16 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Hello!</title>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- import the webpage's stylesheet -->
-    <link rel="stylesheet" href="./assets/src/global.css">
-    <!-- import the webpage's javascript file -->
-    <script src="https://unpkg.com/ionicons@latest/dist/ionicons.js"></script>
-   <script src="https://unpkg.com/@ionic/core@latest/dist/ionic.js"></script>
-   <link href="https://unpkg.com/@ionic/core@latest/css/ionic.bundle.css" rel="stylesheet">
+      <title>Viva XR!</title>
+      <meta charset="utf-8">
+      <link rel="manifest" href="/manifest.json">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <script src="https://unpkg.com/ionicons@latest/dist/ionicons.js"></script>
+      <script src="https://unpkg.com/@ionic/core@latest/dist/ionic.js"></script>
+      <link href="https://unpkg.com/@ionic/core@latest/css/ionic.bundle.css" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="src/global.css">
   </head>  
 <body>
 <ion-app>
@@ -19,22 +18,20 @@
  <iframe  class="iframe-container" src="https://www.youtube.com/embed/ELQh3z4KrXk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
  <div class="ion-margin-start">
       <ion-grid> 
-    <ion-row class="ion-align-items-center">
+    <ion-row>
       <ion-column>
-      <h3> Rainforests </h3>
+      <h1> Rainforests </h1>
       </ion-column>
-      
       <ion-column>
-<ion-buttons slot="end">
-
-        <ion-icon name="share"></ion-icon>
+       <ion-buttons slot="end">
+        <ion-icon name="share" size="large" color="primary"></ion-icon>
         </ion-buttons>
       </ion-column>
-        </ion-row>
+   </ion-row>
       </ion-grid>
-      <div class="video-views"> 142 Views </div>
-      
-     <h6> Sasha Snow | 3rd July, 2019 </h6>
+      <h5> <b>142 </b> Views </h5>
+   
+     <h6> 2 days ago by Sash Snow </h6>
      <div>
         <input type="checkbox" class="read-more-state" id="expand"/>
         <p class="read-more-wrap"> This is a video description which is much longer hence Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
@@ -145,6 +142,7 @@
     <ion-col class="disclaimer-text" size="12">
  Copyright | Disclaimer | Terms & Conditions | Privacy Policy 
     </ion-col>
+</div>
 </ion-content>
                   
 </ion-app>
