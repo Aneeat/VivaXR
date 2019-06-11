@@ -60,7 +60,7 @@ class videoDetails extends HTMLElement {
                 <ion-row>
                     <ion-col>
                         <ion-card>
-                        <a href="/#/video/details/1"> <img src= "assets/Dolphins.png"></a>
+                        <a href="/#/video/details/1"> <img src= "./assets/Dolphins.png"></a>
                         </ion-card>
                     </ion-col>
                 </ion-row>
@@ -69,12 +69,12 @@ class videoDetails extends HTMLElement {
     
                     <ion-col>
                         <ion-card>
-                        <a href="/#/video/details/1"> <img src= "/assets/BCNCN.png"></a>
+                        <a href="/#/video/details/1"> <img src= "./assets/BCNCN.png"></a>
                         </ion-card>
                     </ion-col>
                     <ion-col>
                         <ion-card>
-                        <a href="/#/video/details/1"> <img src= "/assets/SpaceDreamVR.png"></a>
+                        <a href="/#/video/details/1"> <img src= "./assets/SpaceDreamVR.png"></a>
                         </ion-card>
                     </ion-col>
                 </ion-row>
@@ -87,7 +87,7 @@ class videoDetails extends HTMLElement {
                 <ion-row>
                     <ion-col>
                         <ion-card>
-                        <a href="/#/video/details/1"> <img src= "/assets/Rainforest.png"></a>
+                        <a href="/#/video/details/1"> <img src= "./assets/Rainforest.png"></a>
                         </ion-card>
     
                     </ion-col>
@@ -97,13 +97,13 @@ class videoDetails extends HTMLElement {
                     <ion-col>
     
                         <ion-card>
-                        <a href="/#/video/details/1"> <img src= "/assets/Bear.png"></a>
+                        <a href="/#/video/details/1"> <img src= "./assets/Bear.png"></a>
                         </ion-card>
     
                     </ion-col>
                     <ion-col>
                         <ion-card>
-                        <a href="/#/video/details/1"> <img src= "/assets/Coral.png"></a>
+                        <a href="/#/video/details/1"> <img src= "./assets/Coral.png"></a>
                         </ion-card>
                     </ion-col>
                 </ion-row>
