@@ -9,13 +9,13 @@ class HomePage extends HTMLElement {
         this.innerHTML =  `
         <ion-content>
         <div>
-           <img class="hero" src="/assets/sm-viv-hero.gif">
+           <img class="hero" src="./assets/sm-viv-hero.gif">
+         </div>
         <div class="hero-text">
            <h1>DISCOVER. CREATE. IMMERSE.</h1>
-           <p>Viva XR helps artists and fans intimately connect using Mixed Reality Technology</p>
+           <p>VivaXR helps artists and fans intimately connect using Mixed Reality Technology</p>
            <ion-button color="secondary">UPLOAD</ion-button> <ion-button href="/explore">EXPLORE</ion-button>
         </div>
-      </div>
         <ion-col>
            <h2 text-align="center">How it Works</h2>
            <ion-label>
@@ -23,7 +23,7 @@ class HomePage extends HTMLElement {
         </ion-col>
         <ion-row>
            <ion-col size="3">
-              <img id="icons"  src = "/assets/PhoneIcon.png" />
+              <img id="icons"  src = "./assets/PhoneIcon.png">
            </ion-col>
            <ion-col size="9">
               <h3> Create </h3>
@@ -31,7 +31,7 @@ class HomePage extends HTMLElement {
               <a> Upload a Video </a>
            </ion-col>
            <ion-col size="3"> 
-              <img id="icons"  src = "/assets/imageicon.png" />
+              <img id="icons"  src = "./assets/imageicon.png">
            </ion-col>
            <ion-col size="9">
               <h3> Explore </h3>
@@ -39,14 +39,14 @@ class HomePage extends HTMLElement {
               <a> Watch in VR </a>
            </ion-col>
            <ion-col size="3">
-              <img id="icons"  src="/assets/VRIcon.png" />
+              <img id="icons"  src="./assets/VRIcon.png">
            </ion-col>
            <ion-col size="9">
               <h3> Immerse </h3>
               <p>There’s a virtual world waiting to be explored, immerse yourself in a new adventure everyday</p>
               <!-- test link to video html to be removed-->
      
-              <a href="public/_video-page.html"> Create an Account</a>
+              <a href=""> Create an Account</a>
            </ion-col>
         </ion-row>
         <div>
@@ -60,7 +60,7 @@ class HomePage extends HTMLElement {
         <ion-card>
            <ion-row>
               <ion-col size="4">
-                 <img class="icons" src="/assets/Oculus.jpg" />
+                 <img class="icons" src="./assets/Oculus.jpg">
               </ion-col>
               <ion-col size="8">
                  <h3>Get a 10% discount on your very own headset Oculus Go headset</h3>
@@ -75,19 +75,19 @@ class HomePage extends HTMLElement {
            <ion-row>
               <ion-col>
                  <ion-card>
-                 <a href="https://youtu.be/kCFWmhUWeNs"><img src="/assets/SagradiaFamilia.png"/></a>
+                 <a href="https://youtu.be/kCFWmhUWeNs"><img src="./assets/SagradiaFamilia.png"></a>
                  </ion-card>
               </ion-col>
            </ion-row>
            <ion-row>
               <ion-col>
                  <ion-card>
-                    <img src="/assets/Monarch.png"/>
+                    <img src="./assets/Monarch.png"/>
                  </ion-card>
               </ion-col>
               <ion-col>
                  <ion-card>
-                    <img src="/assets/NL.png"/>
+                    <img src="./assets/NL.png"/>
                  </ion-card>
               </ion-col>
            </ion-row>
