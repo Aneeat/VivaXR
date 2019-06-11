@@ -9,10 +9,6 @@ class HomePage extends HTMLElement {
         this.innerHTML =  `
         <ion-content>
         <div>
-        </div>
-        <div>
-        </div>
-        <div>
            <img class="hero" src="/assets/sm-viv-hero.gif">
         <div class="hero-text">
            <h1>DISCOVER. CREATE. IMMERSE.</h1>
