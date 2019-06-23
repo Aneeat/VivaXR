@@ -79,9 +79,6 @@ class ExplorePage extends HTMLElement {
            <ion-label> Gaming</ion-label>
         </ion-chip>
         <ion-chip>
-           <ion-label> Most Viewed </ion-label>
-        </ion-chip>
-        <ion-chip>
            <ion-label> History</ion-label>
         </ion-chip>
         <ion-chip>
@@ -147,8 +144,8 @@ class ExplorePage extends HTMLElement {
               </ion-row>
            </ion-grid>
            <ion-card>
-         <ion-card-content>
-        <img id="icons" src="/assets/imageicon.png" align="center"/>
+         <ion-card-content align="center">
+        <img id="icons" src="/assets/imageicon.png">
         <p>Get personalised video recommendations and updates of latest video releases</p>
         <br>
         <ion-button color="secondary">CREATE AN ACOUNT</ion-button>
